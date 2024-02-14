@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/01-reading-tabular.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/02-data-frames.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/404.html</loc>
   </url>
   <url>
@@ -10,7 +16,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/images.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/index.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/01-reading-tabular.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/02-data-frames.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/404.html</loc>
@@ -22,10 +40,22 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/profiles.html</loc>
@@ -34,7 +64,13 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/key-points.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/profiles.html</loc>
