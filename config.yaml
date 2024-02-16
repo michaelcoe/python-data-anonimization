@@ -59,8 +59,20 @@ contact: 'team@carpentries.org'
 
 # Order of episodes in your lesson
 episodes:
-- 01-reading-tabular.Rmd
-- 02-data-frames.Rmd
+- 01-run-quit.Rmd
+- 02-variables.Rmd
+- 03-types-conversion.Rmd
+- 04-built-in.Rmd
+- 05-coffee.Rmd
+- 06-libraries.Rmd
+- 07-reading-tabular.Rmd
+- 08-data-frames.Rmd
+- 09-anonymization-methods.Rmd
+- 10-lunch.Rmd
+- 11-randomization.Rmd
+- 12-aggregation.Rmd
+- 13-masking.Rmd
+- 14-synthetic-data.Rmd
 
 # Information for Learners
 learners:
