@@ -3,8 +3,8 @@ site: sandpaper::sandpaper_site
 ---
 
 This lesson is an introduction to programming in Python 3 for people with little or no previous
-programming experience. It uses plotting as its motivating example and is designed to be used in
-both [Data Carpentry][dc-lessons] and [Software Carpentry][swc-lessons] workshops.
+programming experience. It uses anonymization of data as its motivating example and is designed to be used in
+both [Data Carpentry][dc-lessons] and [Software Carpentry][swc-lessons] workshops. The python introduction and data are copied from the [Python-Novice-Gapminder][python-novice-gapminder] Software Carpentry lessons. For a more indepth introduction to plotting, please see that lesson.
 This lesson references [JupyterLab][jupyterlab] but can be taught using alternative Python 3 interpreters
 as well (e.g., repl.it, Anaconda).
 
@@ -20,7 +20,7 @@ as well (e.g., repl.it, Anaconda).
 
 3. Learners must get the gapminder data before class starts:
   please download and unzip the file
-  [python-novice-gapminder-data.zip](episodes/files/python-novice-gapminder-data.zip).
+  [data-anonymization-python.zip](episodes/files/data-anonymization-python.zip).
 
 Please see [the setup instructions](learners/setup.md)
 for more details.
