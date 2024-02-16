@@ -1,0 +1,501 @@
+Surname,First Name,Age,Party Choice,Postcode,Email,Job Title,Company,Salary
+Doherty,Chelsea,33,Labour,8534,smithpaul@gmail.com,Neurosurgeon,Cooksley PLC,117000
+Barnett,Allan,32,ACT,2606,bradley75@wills.net.nz,Equities trader,Dillon-Healey,167000
+Simmons,Andrew,95,NZ First,2659,pdavidson@inspire.net.nz,Facilities manager,Evans and Sons,201000
+Blackwell,Lisa,45,Labour,1382,bryantblake@thomas.maori.nz,"Scientist, forensic",Jones PLC,96000
+Morris,Hemi,92,Labour,9600,brightmark@inspire.net.nz,Surgeon,O'Brien-Roberts,36000
+Oliver,Bronwyn,78,NZ First,2452,uwilliamson@yahoo.com,Animal technologist,"Long, Johnston and Lee",144000
+Lammas,Erin,18,Green,2134,hollandeli@inspire.net.nz,Agricultural consultant,Stewart-Joe,205000
+Howard,Nicholas,83,Green,9643,richard92@inspire.net.nz,"Psychotherapist, dance movement","Buick, McCarthy and Jensen",153000
+Wilton,Sharon,20,Green,8190,davieschristopher@xtra.co.nz,Media planner,"Guthrie, Webb and McEwen",164000
+Bailey,Ian,19,Labour,9017,katie49@inspire.net.nz,Network engineer,"Wallace, Lammas and Thomas",228000
+Jackson,Holly,61,NZ First,8421,obrienlogan@inspire.net.nz,Speech and language therapist,Matthews-Jones,112000
+Rowland,Heather,49,NZ First,0724,andrew42@yahoo.com,"Nurse, adult",McCallum-Higgins,55000
+Davison,Katie,69,Green,8418,tholdaway@xtra.co.nz,Geochemist,"Zimmerman, Fuller and Hoare",95000
+Jackson,Mark,67,Labour,6446,harrisonshannon@higgins-mcnabb.ac.nz,Lexicographer,"Brown, Linton and Morgan",104000
+Street,Tania,31,ACT,8958,karl92@yahoo.com,Medical physicist,Gray-Williamson,191000
+Marshall,Aria,77,National,5336,avaandrew@xtra.co.nz,Food technologist,Freeman-Gordon,33000
+Cunningham,Amelia,75,TPM,4921,raewynwallace@taylor-low.org.nz,Freight forwarder,Harris-Rayner,155000
+Bishop,Elijah,33,Green,8570,dpope@harris.kiwi.nz,"Geneticist, molecular","Kelly, Rasmussen and Hardy",219000
+Currie,Marie,26,TPM,2184,isaacbull@evans-miller.maori.nz,Mental health nurse,"Dawick, Howard and Allen",260000
+Henderson,Simon,75,National,9434,anthony58@xtra.co.nz,Patent examiner,Murdoch Ltd,259000
+Bailey,Millie,74,National,5744,mariawaugh@fairhall-murdoch.nz,Applications developer,"Jeffries, Baird and Fleming",61000
+Price,Wayne,62,TPM,6238,wendysaunders@rodgers-burnett.geek.nz,Retail buyer,Ward Group,75000
+Munro,Christina,45,TPM,5280,oferguson@yahoo.com,Clinical psychologist,"McMahon, Hudson and Manning",175000
+Ritchie,Robert,55,Green,9897,joshuagriffiths@yahoo.com,Product/process development scientist,Linton-Hardy,96000
+Laing,Isaac,62,NZ First,8959,nealmichael@inspire.net.nz,Chemical engineer,Adams and Sons,126000
+West,Stephanie,68,ACT,6128,kimferguson@hotmail.com,Arts development officer,"MacDonald, Ward and Gibson",234000
+Taylor,Alexandra,32,ACT,2613,nodonnell@yahoo.com,Arboriculturist,"McEwen, Simmons and Lyon",83000
+Russell,Sonya,43,National,2610,opope@harrison.net.nz,Animal technologist,"Gore, Roberts and Rodgers",165000
+Wong,Brendon,54,ACT,2578,annette66@xtra.co.nz,Energy manager,Olsen Ltd,78000
+Roberts,Peter,63,Labour,9249,duncansarah@inspire.net.nz,"Administrator, sports",Short-Giles,145000
+Knight,Sarah,91,TPM,2108,carl40@hotmail.com,Textile designer,Green-Parker,240000
+McKay,Joshua,19,Labour,9333,davidpatchett@hotmail.com,Financial controller,"Fletcher, Gillespie and Satherley",238000
+Hodson,Ella,42,National,9401,lisabryant@yahoo.com,"Solicitor, Scotland",Moran Ltd,220000
+Olsen,Kim,29,Labour,5322,northrosemary@gmail.com,Chiropractor,Reynolds-Whyte,171000
+Brown,John,31,National,7518,sethcole@gmail.com,Trade mark attorney,Martin-Jones,241000
+Griffiths,Sharon,58,Labour,8195,belinda65@hotmail.com,Recruitment consultant,"Jennings, Dalziel and Miller",119000
+Watkins,Liam,38,ACT,6120,amy16@hotmail.com,"Presenter, broadcasting",Kelly and Sons,200000
+Greig,Andrea,72,Labour,2691,jessie69@gmail.com,Homeopath,Butcher-Kelly,246000
+O'Brien,Kahurangi,47,ACT,9835,raymond30@yahoo.com,Cabin crew,"Stevenson, Miller and Paterson",71000
+Moody,Donna,30,TPM,5831,angela89@inspire.net.nz,Chartered management accountant,Price-Logan,98000
+Jones,Olivia,65,National,9083,nixongordon@smith.kiwi,"Surveyor, quantity",Mann LLC,149000
+Jackson,Alan,85,NZ First,8169,pburns@yahoo.com,Accounting technician,McCallum PLC,99000
+Tapp,Samuel,27,National,9556,stephaniegunn@xtra.co.nz,"Editor, magazine features",McDonald-Smith,44000
+Nielsen,Samuel,27,TPM,2356,campbellbryan@gmail.com,Insurance underwriter,Matthews PLC,151000
+Sanders,Linda,49,Labour,8822,debrajohnston@sixtus-millar.org.nz,Event organiser,"Black, Simpson and Hodson",70000
+Reid,Stephen,40,NZ First,6403,mcphersonkevin@xtra.co.nz,Comptroller,Thompson-Kemp,67000
+Neilson,Simon,34,ACT,2337,georgefleming@hotmail.com,"Designer, jewellery",Williams LLC,124000
+Blake,Zara,50,TPM,2183,jessica82@godfrey-nicholas.ac.nz,Animal technologist,Stratton PLC,36000
+Davis,Sharon,68,ACT,5019,sienna34@grant.nz,Environmental consultant,Norman LLC,41000
+Bishop,Daniel,55,Green,2226,theodore52@nielsen.kiwi.nz,"Exhibitions officer, museum/gallery","Dawick, Matheson and Robert",98000
+Evans,Benjamin,26,Labour,9717,gprice@inspire.net.nz,Special effects artist,"Gifford, Barr and Howard",78000
+Harris,Jonathan,74,Labour,6485,jodiebrown@gmail.com,Museum/gallery conservator,"Whyte, Simpson and Kendall",67000
+Thompson,Patricia,18,Labour,5274,davisandrew@gibson.maori.nz,Financial adviser,Smith Group,221000
+Mayo,Mark,87,Labour,2418,tania98@gmail.com,Operational researcher,Jackson PLC,170000
+Murphy,Christopher,44,TPM,9391,batchelaroliver@brown-oconnor.nz,Oceanographer,"Gilchrist, Perrin and Bell",178000
+McKenna,Justin,78,National,5898,danieltapp@yahoo.com,"Psychotherapist, child",Foote-Ford,82000
+Ching,Aaron,42,Labour,8479,rreader@seymour.net.nz,Naval architect,Ryan PLC,240000
+Scott,Jacob,40,ACT,6280,nfairhall@cameron.net.nz,Magazine features editor,Burgess-Love,260000
+Fowler,Thomas,76,Labour,6220,wchapman@yahoo.com,"Scientist, physiological",Wood-Taylor,158000
+Clunies-Ross,Chloe,73,ACT,9032,butlertrinity@forrest.ac.nz,"Engineer, building services",Knight Ltd,228000
+Read,Grant,84,Green,8867,anthonynewton@north.kiwi,"Surveyor, minerals",Jensen LLC,214000
+Thomas,Anne,80,Labour,8964,bellchristine@moran-miller.net.nz,Corporate treasurer,Ramsay-Funnell,48000
+Pickering,Tiare,60,NZ First,6143,bruce21@xtra.co.nz,Immigration officer,Ryan-Jones,191000
+Cameron,Peter,59,ACT,5110,mcleantamara@avery.org.nz,Tour manager,Strawbridge LLC,249000
+Bradley,Nicola,46,TPM,2239,adam19@gmail.com,"Geologist, engineering",Webster Ltd,142000
+Dixon,Te Ariki,23,Labour,2326,emilyanderson@ward-woolley.geek.nz,"Teacher, secondary school",Francis-Duncan,136000
+Price,Tegan,62,NZ First,8468,pollardmegan@osullivan-smith.school.nz,Set designer,Chambers-McIsaac,192000
+Buick,Kauri,57,Green,2563,wfurness@poole-york.ac.nz,"Administrator, sports","Pratt, Hepburn and Smith",251000
+Thornton,Ashton,65,National,7526,mhart@roberts-knight.ac.nz,Television/film/video producer,"Morris, Jones and Wallace",160000
+Pickering,William,24,Labour,2036,joelirving@inspire.net.nz,Chief Operating Officer,"Freeth, Smith and Mortimer",140000
+Pedersen,Michelle,70,Labour,5105,deborah70@hotmail.com,Database administrator,"Clarke, Nelson and Gill",72000
+Lewis,Andrew,21,Labour,2097,ogaskin@allen.net.nz,Chief Marketing Officer,"Avery, Vincent and Jones",201000
+Mitchell,Julia,88,Labour,4594,fterry@yahoo.com,Fashion designer,Perry Group,211000
+Tucker,Sara,30,ACT,5846,imanning@yahoo.com,"Radiographer, diagnostic","Moore, O'Sullivan and Woolley",154000
+Faulkner,Darren,79,ACT,9837,curtislynda@yahoo.com,Music tutor,Mitchell LLC,64000
+Smith,Gavin,45,TPM,2319,jack92@gmail.com,Homeopath,Carr-Gibson,116000
+Bell,Deborah,67,NZ First,5180,lhudson@vercoe.school.nz,Location manager,"Hyde, Bright and Martin",123000
+Thomas,Emma,21,TPM,5379,nrowe@gmail.com,"Psychologist, educational","Moore, Evans and Sullivan",69000
+Fletcher,David,27,NZ First,2213,joseph71@chandler-grant.maori.nz,Medical technical officer,"Parkes, Short and Lawson",191000
+Neal,Ryan,91,ACT,5796,maryedwards@xtra.co.nz,Trade mark attorney,"Franklin, Martin and Perano",190000
+Mason,William,23,Green,8016,michelle57@xtra.co.nz,Financial controller,"Oliver, Taylor and Marsh",144000
+McEwen,Indie,76,ACT,0684,beardava@xtra.co.nz,Furniture designer,"Mitchell, Hudson and Davis",60000
+Smith,Megan,35,ACT,1787,archie62@inspire.net.nz,"Accountant, chartered",Kirk-Jennings,136000
+Boyce,Stephen,31,NZ First,5127,oliveradrian@hardy.ac.nz,Geophysicist/field seismologist,Lloyd-Simpson,78000
+Parkes,Paul,60,ACT,2440,donaldsonedward@gmail.com,"Restaurant manager, fast food",Baker-Rasmussen,179000
+Morgan,Maria,79,TPM,5105,laura56@jefferies.nz,Broadcast presenter,"Waghorn, Shailer and Stace",230000
+Ingram,Lachlan,57,TPM,5543,hmillar@gmail.com,Lobbyist,"Hughes, Mitchell and Smart",73000
+Seymour,Christine,57,TPM,9667,sprice@xtra.co.nz,"Surveyor, quantity",Dawson Ltd,177000
+Patterson,Kimberley,98,ACT,5066,collisjohn@yahoo.com,"Editor, commissioning",Rutherford Ltd,190000
+Wilkinson,Isabella,89,NZ First,5296,littlesarah@strawbridge.org.nz,Sports development officer,Holland Inc,101000
+Davidson,Olivia,23,NZ First,6226,qhenderson@cameron.kiwi.nz,Arboriculturist,Mitchell Inc,31000
+Shaw,George,84,Labour,5286,tinamoore@hodson.org.nz,Legal executive,Woods LLC,245000
+O'Connor,James,58,NZ First,8633,greigjohn@martin-knowles.org.nz,Dealer,"Costello, Pearson and Fitzgerald",73000
+Bruce,Sean,67,National,8580,eroberts@evans.school.nz,Orthoptist,Faulkner-Dunn,216000
+Eglinton,Christopher,60,Labour,8578,lmartin@gmail.com,Higher education careers adviser,Best Inc,116000
+Pearce,Paul,26,NZ First,6220,pritchardgrant@gmail.com,Broadcast engineer,Evans PLC,72000
+Gray,Melanie,94,ACT,8520,liam13@burnett.co.nz,Armed forces training and education officer,"Sutton, Matheson and Nelson",151000
+Hart,Grant,79,Labour,9713,janesmith@best-thompson.ac.nz,Careers adviser,"Atkinson, Graham and Fuller",38000
+McCormick,Andrew,59,TPM,2478,nigeljenkins@horton.kiwi.nz,Clothing/textile technologist,Jackson-Drake,35000
+Clifford,Edward,75,Green,9635,kathryn52@bright.geek.nz,"Doctor, general practice","Scott, Smith and Drummond",46000
+Furness,Robert,75,Green,6261,benjaminbeattie@taylor.school.nz,Chief of Staff,"Cragg, Johnstone and Boyd",145000
+Dunn,Tamati,59,TPM,8054,rochellestone@oconnor-larsen.maori.nz,Volunteer coordinator,Evans LLC,96000
+Jones,Nathan,72,TPM,9093,lhealy@page-fulton.nz,"Radiographer, diagnostic",Miller-Hubbard,136000
+Davenport,Hayley,20,TPM,6026,natalie88@bartlett.nz,Therapeutic radiographer,Smith-Pearson,216000
+Pedersen,Bryan,45,TPM,5845,newmanmartin@yahoo.com,Chief Operating Officer,Frost and Sons,236000
+Gee,Lee,76,ACT,5395,blakejones@yahoo.com,"Producer, television/film/video",Costello LLC,63000
+Goodwin,Morgan,75,ACT,5078,hoodbruce@hotmail.com,"Journalist, magazine","Bull, Munro and Waller",231000
+Matthews,Jane,23,Labour,9597,cryan@xtra.co.nz,Historic buildings inspector/conservation officer,Wong-Allerby,225000
+Wood,Joan,22,Labour,1292,peterfletcher@freeman.org.nz,Race relations officer,Roberts Group,138000
+Burr,Michael,98,National,8276,elliehansen@yahoo.com,"Scientist, biomedical","Mitchell, Schwass and Ching",106000
+Sutton,Timothy,99,National,8536,curriedavid@mears.maori.nz,Oncologist,Smith-Newman,35000
+McIntyre,Jake,51,National,5533,aidanharris@brown-bell.net.nz,"Psychologist, occupational",Taylor Group,167000
+Currie,Thomas,80,NZ First,9327,pmcdonald@frost.co.nz,"Designer, textile",Elliott Ltd,38000
+Reed,Robert,55,TPM,2692,smithamy@hughes.org.nz,Site engineer,Eaton-Eglinton,194000
+Thompson,John,23,National,4673,peterscott@inspire.net.nz,Oceanographer,Hook-Harris,186000
+Franklin,Sandra,75,Labour,9578,marshkylie@steer.school.nz,Television camera operator,"Freeman, Pratt and Gibbons",36000
+Cooksley,William,45,Labour,5888,harryalexander@fairhall.net.nz,Phytotherapist,"McGregor, Norton and Flood",80000
+Crawford,Ross,58,National,7322,ethanboyce@yahoo.com,Special effects artist,Robb Inc,227000
+Dawson,Aaron,96,NZ First,6050,christian65@xtra.co.nz,Manufacturing systems engineer,Saunders Ltd,65000
+Procter,Alyssa,65,Labour,5002,benjamin82@gmail.com,Soil scientist,"Dawson, Cole and Scott",183000
+Knox,Hannah,42,TPM,6105,shane29@hotmail.com,"Teacher, primary school",Taylor LLC,131000
+Wallace,Dennis,48,Green,2105,griffinjoel@green.maori.nz,"Research officer, government","Hayes, Gilmore and Williams",70000
+Wratt,Philip,74,NZ First,9012,bkelly@baxter.net.nz,Community development worker,Kennedy-Anderson,165000
+Davis,Brent,20,NZ First,2119,smackay@baird.kiwi,Proofreader,Fuller Inc,113000
+Powell,Megan,94,Green,8885,masonharris@boyle.school.nz,IT consultant,"Williams, Sullivan and Francis",66000
+Mitchell,Lynette,53,Labour,8675,hneilson@simpson-small.kiwi,"Programmer, applications","Taylor, Fitzgerald and McKay",101000
+Botham,Caleb,78,Green,9602,dmcpherson@inspire.net.nz,Clinical psychologist,McCormick-Scott,200000
+Spelman,Sophie,37,ACT,4353,marytaylor@yahoo.com,Agricultural consultant,Moran Group,104000
+Campbell,Jacqueline,75,National,1948,qseymour@hotmail.com,"Sales professional, IT",Page LLC,229000
+Meads,Thomas,67,Green,8003,sophiamacdonald@caldwell-drew.kiwi,Fisheries officer,Cameron Inc,241000
+Kirk,Karen,18,Labour,1936,jmcgregor@riley.geek.nz,Plant breeder/geneticist,Rogers Ltd,146000
+Smith,Justin,72,TPM,0716,smontgomery@yahoo.com,"Engineer, mining",Casey LLC,74000
+Baker,Michelle,35,National,6211,glenn17@inspire.net.nz,"Designer, graphic",Graham Ltd,211000
+Todd,Sean,51,Green,5003,oliviarogers@xtra.co.nz,Stage manager,Mason-Blair,116000
+Greer,Emma,44,TPM,1570,cookleon@rowlands-stevens.kiwi,"Copywriter, advertising","Lammas, O'Brien and Hart",190000
+Tait,Hannah,50,ACT,5080,robert49@willis-fenton.school.nz,Chief Financial Officer,Craig-Buick,113000
+Smith,Christopher,24,Labour,8086,xhoward@hotmail.com,"Scientist, biomedical",Green Group,93000
+Campbell,Russell,51,NZ First,2353,fkelly@inspire.net.nz,Exercise physiologist,West-Murphy,194000
+Eden,Thomas,28,National,5332,bgardiner@hotmail.com,Air traffic controller,Boyce and Sons,37000
+Love,Peter,73,Green,6125,uneal@hotmail.com,Proofreader,Conway Inc,158000
+Lammas,Kane,70,NZ First,2443,nicholas06@hodson.net.nz,Education administrator,"Porter, Gill and Neal",234000
+Green,Mark,63,National,2015,glennduncan@herd-sheridan.maori.nz,Museum/gallery curator,Harris-Barr,71000
+Scott,Ella,29,Green,2408,samuelthompson@yahoo.com,Operational researcher,Ferguson-Howard,99000
+Fisher,Gerard,71,National,9274,jamesbull@inspire.net.nz,Brewing technologist,Reid LLC,138000
+Clunies-Ross,Paul,39,Green,8255,kathrynhealey@yahoo.com,Barista,"Ball, Paton and Mitchell",71000
+Irving,Vanessa,23,Green,1395,greenrichard@inspire.net.nz,Manufacturing systems engineer,"Baldwin, Williams and O'Brien",210000
+Campbell,Michael,70,Labour,5186,lowbella@hart-webb.net.nz,Theme park manager,Stewart Inc,65000
+Nicholson,Sarah,57,Labour,5080,forrestnicholas@mason-knowles.kiwi.nz,Interior and spatial designer,"Lewis, Patterson and Elliott",106000
+Watt,Summer,97,TPM,5754,reynoldszara@george-mckay.kiwi,Exhibition designer,MacDonald-Blake,204000
+Pope,Jonathan,58,TPM,9097,nmiller@mcfarlane.kiwi,Civil Service administrator,McLean-Costello,142000
+Reader,Mikayla,83,National,5870,fwilton@gibbons.kiwi,Psychotherapist,"Gibson, Simonsen and Fuller",99000
+Rutherford,Ryan,29,Labour,4973,garethwatts@gray.kiwi,Illustrator,Porter-Saunders,121000
+Frost,Brent,52,Green,2635,nixonsmith@haines.geek.nz,Human resources officer,Reardon and Sons,73000
+Monk,Alexander,99,Green,6114,candrew@inspire.net.nz,Waste management officer,Horton PLC,253000
+Stevens,Hannah,66,National,2423,thomas55@sanders.ac.nz,Accounting technician,"Gardner, Lloyd and Gillespie",243000
+Funnell,Lynne,18,NZ First,6032,logan71@inspire.net.nz,"Runner, broadcasting/film/video",Smith-Cameron,253000
+Lucas,Philippa,89,Green,9740,turnershona@sullivan-hooper.ac.nz,"Designer, jewellery",Evans and Sons,120000
+Gardner,Wayne,66,National,5184,raymondwhyte@inspire.net.nz,Pharmacologist,Rowlands PLC,85000
+Peterson,Carolyn,31,Green,9497,joshuapoole@hotmail.com,"Conservation officer, historic buildings",Poole-Gray,246000
+Thomas,Michelle,23,Labour,8268,shayward@gmail.com,Stage manager,Skinner LLC,111000
+Davenport,Steven,29,National,5364,siennaneilson@gibbons-hickey.co.nz,"Editor, film/video",Newman-Adams,140000
+Harris,Vincent,47,TPM,6141,sjohnstone@xtra.co.nz,"Nurse, adult",Perrin LLC,204000
+Whittaker,Denise,90,ACT,2382,michael02@read.net.nz,Health physicist,"Buchanan, Gibbons and Wilkinson",249000
+Perano,Thomas,22,Labour,8814,sarah88@lawson.org.nz,Cartographer,McKenna and Sons,125000
+MacDonald,Suzanne,95,ACT,5772,smithdonna@yahoo.com,Health promotion specialist,"Wheeler, Carr and Hardie",206000
+Brown,Theodore,65,Labour,6057,edward02@gmail.com,Chief Technology Officer,Ryan and Sons,37000
+Hickey,Michael,41,TPM,8433,fultonfiona@obrien.school.nz,Equality and diversity officer,Davis and Sons,137000
+Blake,Nicole,59,TPM,9036,tania43@xtra.co.nz,Dramatherapist,Smith LLC,223000
+Griffiths,Wayne,78,NZ First,6474,jacob33@inspire.net.nz,Minerals surveyor,Riley Ltd,216000
+George,Julie,93,TPM,5056,leanne11@inspire.net.nz,Dentist,"Bary, Thompson and Morrison",160000
+Perry,Alexander,54,NZ First,5360,thomas57@chandler.net.nz,Mechanical engineer,Tanner and Sons,124000
+Casey,Tania,90,TPM,3795,michaelharris@hotmail.com,Proofreader,"Parker, Gordon and Herd",247000
+Ewart,Mark,36,TPM,9835,thomasnicholas@fowler.ac.nz,Early years teacher,Williams-Guy,172000
+Jensen,Sheryl,67,Green,9259,ldixon@coleman-stevens.kiwi,Video editor,"Olsen, Curtis and Mann",251000
+Webb,Brett,87,NZ First,2168,david09@xtra.co.nz,Homeopath,Jones-Neal,49000
+Holland,Wikitoria,47,ACT,5794,stephensmith@read.co.nz,"Scientist, audiological",Murdoch-Dalton,257000
+Bruce,Luke,96,TPM,2670,lawsonphilip@lane.nz,Theatre director,Howard-Berry,90000
+Morgan,Wendy,60,TPM,7427,zoconnor@xtra.co.nz,Charity officer,Stace and Sons,170000
+Webster,Sarah,64,National,8426,hemi18@xtra.co.nz,"Programmer, systems",Chapman and Sons,125000
+Rush,Luke,86,TPM,8653,kclifford@butcher.co.nz,Learning disability nurse,Saunders-Dyer,236000
+Baker,Dylan,91,Green,5716,michaeljenkins@jones.geek.nz,Archaeologist,"Cooksley, Robson and Moran",132000
+Fowler,Awhina,28,NZ First,8695,anthony97@yahoo.com,Advertising copywriter,"Reid, Owen and Rogers",105000
+Ward,Jeanette,32,NZ First,5515,mcintyrenigel@inspire.net.nz,"Designer, graphic",Anderson-Miller,252000
+Morgan,Nathan,80,National,9509,qnicholson@inspire.net.nz,"Designer, textile","Simpson, Perry and Smith",252000
+Whyte,Lucas,18,NZ First,2177,andrew51@hotmail.com,"Surveyor, building","Anderson, Forbes and Morgan",71000
+Richards,Bradley,42,Labour,9426,louisedavidson@mcewen.maori.nz,Manufacturing engineer,"Humphrey, McLachlan and Larsen",104000
+Scott,Lesley,39,ACT,2156,sowmannigel@gray.kiwi.nz,Neurosurgeon,Moran-Matthews,217000
+Bowden,Flynn,69,TPM,5011,jamesjones@gmail.com,Theatre stage manager,"Allen, Green and Wallace",195000
+Anderson,Colin,46,ACT,9098,neil06@wheeler-skinner.school.nz,"Optician, dispensing","Parker, Kennedy and Meredith",75000
+Reardon,Oliver,91,Labour,1784,barbara91@low.kiwi.nz,Sales promotion account executive,"Ryan, Cresswell and Rodgers",207000
+Morrison,Kirsty,66,Green,9016,brookepayne@xtra.co.nz,Prison officer,"Pedersen, Nicholson and Jellyman",68000
+Bradley,Phillip,72,National,6905,savannah25@hotmail.com,Hydrographic surveyor,"Small, Dickson and Marfell",69000
+Rush,Jake,27,Labour,2664,leonwall@mitchell.org.nz,Radio producer,"Edwards, Hamilton and Nicholson",66000
+Brown,Brett,80,ACT,8181,hudson97@inspire.net.nz,Retail buyer,Simpson-Freeman,112000
+Satherley,Laura,98,NZ First,6290,stacetony@xtra.co.nz,"Programmer, systems",Jellyman-Taylor,36000
+Wells,Sophie,85,ACT,2253,popemark@scott.ac.nz,Retail banker,Gibb and Sons,128000
+Ryan,Michelle,75,Green,5354,jennifer84@kelly.co.nz,International aid/development worker,"Wallis, Richards and Stevens",121000
+Long,James,83,Green,0897,southeeisaac@phillips.kiwi.nz,Publishing copy,"Henderson, Pearson and Stevens",128000
+Thompson,Leah,64,TPM,9245,pritchardfrancis@cook.kiwi.nz,Product manager,Alve LLC,149000
+Gordon,Julie,28,ACT,5049,jwatt@inspire.net.nz,Meteorologist,"Thornton, Smith and Taylor",77000
+O'Donnell,Phillip,88,TPM,8180,kweston@hotmail.com,Theatre stage manager,Ingram PLC,148000
+Flood,Victoria,18,TPM,8212,alexanderethan@inspire.net.nz,Firefighter,Pedersen-Patterson,259000
+Miller,John,77,National,5785,smithwilliam@gmail.com,Psychiatric nurse,"Brown, Scott and Webb",236000
+Sullivan,William,58,TPM,8975,timothy40@brown-bush.net.nz,Fine artist,"Bailey, Anderson and Henderson",228000
+Dunn,Ruby,47,ACT,8177,shelley80@mclachlan.geek.nz,Rural practice surveyor,Fuller Inc,165000
+Green,Jacqueline,97,Labour,9522,lovematthew@gee-brown.ac.nz,Hospital pharmacist,"Hughes, McIsaac and Henderson",71000
+Mason,Summer,18,NZ First,0377,fgilbert@maxwell.org.nz,Location manager,Humphrey-Weston,94000
+Freeth,Ian,51,Green,5080,fowlergeorgia@yahoo.com,"Administrator, local government",Gore-Brown,56000
+Read,Aaron,69,Labour,9690,jenna02@lewis.org.nz,Health and safety inspector,Vercoe-Baker,184000
+Olsen,Georgia,37,TPM,8259,jessica95@fleming-muir.kiwi,"Producer, television/film/video","Jennings, Smith and Thompson",116000
+Lloyd,Dylan,82,NZ First,9687,taylafrancis@yahoo.com,Engineering geologist,"O'Neill, Neal and Carter",159000
+Coutts,Zachary,93,Labour,5568,isaac85@xtra.co.nz,"Psychologist, prison and probation services","Bartlett, Pearson and Neal",77000
+Freeman,Tony,38,National,8103,ocresswell@hotmail.com,Soil scientist,Rowland-Kelly,189000
+Parker,Alan,52,ACT,9521,gregorybaldick@gmail.com,"Surveyor, building control",Rose-Williams,185000
+McKenna,Zion,50,Labour,5791,xpratt@inspire.net.nz,Visual merchandiser,Tanner-Scott,105000
+Owen,Jessica,50,ACT,9043,oconnorkevin@barnes.geek.nz,Dramatherapist,Williams Group,64000
+Kelly,Anna,72,NZ First,6093,donnacox@harris.geek.nz,"Loss adjuster, chartered","Joe, Edwards and Williams",89000
+Lawson,Kaia,34,Green,5083,ajones@simpson-casey.org.nz,Research scientist (medical),Campbell and Sons,231000
+Duncan,Laura,87,NZ First,6988,hhart@scott.kiwi,"Scientist, marine",Lloyd Group,154000
+Allan,Zachary,33,NZ First,8081,eli58@shepherd-collis.ac.nz,Psychiatric nurse,Ireland-Norman,198000
+Brooks,Sarah,68,ACT,9649,david69@mclean-claridge.nz,Multimedia programmer,Gordon-Hudson,189000
+Pope,Brianna,46,NZ First,5130,glen27@baker.maori.nz,"Producer, radio","Taylor, Smith and Paton",134000
+Saunders,Kane,28,Green,2325,rowejoshua@francis.geek.nz,Television floor manager,Williams-Oliver,151000
+Freeman,James,97,Green,5584,stokespatricia@jellyman.geek.nz,Surgeon,"Bird, Rose and Powell",169000
+Taylor,Luke,34,Labour,6454,vthomas@inspire.net.nz,"Administrator, education",Miller-Gardner,126000
+Rowe,David,63,Labour,2124,sinclairpeter@hansen.nz,Gaffer,Peters PLC,37000
+Beattie,Philip,91,Labour,9775,gthompson@kay.net.nz,Clinical biochemist,"Graham, Clarke and Evans",240000
+Hills,Geoffrey,27,Green,9588,jessica55@inspire.net.nz,Armed forces technical officer,McEwen-Funnell,133000
+Brown,Jason,47,National,8571,gfield@hotmail.com,Illustrator,"Allerby, O'Brien and Freeman",215000
+Thompson,Leslie,98,NZ First,0350,dillonmark@inspire.net.nz,"Journalist, newspaper",Rodgers Group,83000
+Brown,Angela,62,TPM,2163,raymondwoolley@wells-guy.co.nz,Music tutor,"Bailey, Ball and Edwards",82000
+Gibbons,Julie,65,ACT,9818,qcole@carpenter.school.nz,Tourist information centre manager,Paton-Miller,150000
+Hawkins,Jonathan,24,TPM,5795,peter51@baker-blick.co.nz,"Engineer, mining",Turner LLC,78000
+Hamilton,Allan,70,ACT,0850,jessicaclarke@gmail.com,Air cabin crew,Soper Ltd,123000
+Clarke,Vincent,64,TPM,9778,odonnellsofia@hotmail.com,"Lecturer, higher education",Meredith-Bryant,121000
+Tucker,Te Ariki,43,Green,9424,nsmith@yahoo.com,"Psychotherapist, child",Roberts-Russell,94000
+Kenny,Dean,51,Labour,9393,cameronamy@eglinton.nz,Dentist,Johnstone Inc,71000
+Field,Jacob,74,NZ First,5222,alan68@hotmail.com,Theatre manager,Cameron PLC,85000
+Claridge,Glen,61,NZ First,8695,david17@hotmail.com,Investment analyst,Maxwell and Sons,162000
+Avery,Robert,31,TPM,2187,stephen50@waters-low.org.nz,"Designer, television/film set","Sutton, Taylor and Cameron",231000
+Bell,Jason,78,TPM,2046,wallacefrances@richards.kiwi.nz,"Therapist, speech and language",Buckley Inc,36000
+Whittaker,Natasha,72,TPM,8135,guysarah@henderson.co.nz,Retail merchandiser,Currie-Bailey,96000
+Reardon,Paul,76,Green,6014,michaela63@smith.net.nz,"Engineer, technical sales",Andrew-Bell,118000
+Fuller,Clayton,42,TPM,8012,kim23@simpson-cumming.school.nz,Solicitor,Davies-MacDonald,179000
+Sutton,Rachael,80,NZ First,9099,annadavis@baker.net.nz,Insurance claims handler,"Bowater, Freeth and Harris",183000
+Smart,Mark,47,Labour,2561,shane27@bailey-holmes.net.nz,Operations geologist,Middleton-Smith,232000
+Lawson,Hunter,49,NZ First,8598,owenandrea@hotmail.com,Transport planner,"Gardner, Graham and Davenport",200000
+Matthews,Sam,99,Labour,6107,mtaylor@xtra.co.nz,"Designer, graphic",Adams-Botham,76000
+Hughes,James,38,ACT,8217,upratt@hotmail.com,Emergency planning/management officer,Ford-Holmes,192000
+Murphy,Sebastian,75,National,5322,hhutchinson@shepherd.net.nz,Radio producer,"Thompson, Clarke and Johnston",129000
+Avery,David,22,National,6041,paul40@gmail.com,"Presenter, broadcasting",Watts-Williams,253000
+Stewart,William,83,Green,9882,bryantryan@roberts-dean.kiwi.nz,"Therapist, occupational",Holloway-Morris,235000
+Hayward,Alicia,45,Labour,8667,nicholasduncan@wilton-gray.maori.nz,"Chemist, analytical","Taylor, Clunies-Ross and Coley",192000
+MacDonald,Carol,48,TPM,2218,olivercarter@bell.org.nz,Chiropodist,Jensen-Hooper,199000
+Evans,Bryan,73,Green,9736,janderson@gmail.com,Environmental health practitioner,Matheson Group,183000
+Gray,Maurice,63,ACT,9046,wattssteven@oliver.co.nz,Data scientist,Blair LLC,237000
+Phillips,Oliver,62,National,9364,brooklyn09@yahoo.com,Rural practice surveyor,Guthrie Ltd,217000
+Bell,Robert,19,NZ First,6267,kbright@yahoo.com,Chief Strategy Officer,Murphy-Sinclair,182000
+May,Jake,97,NZ First,6285,wwoolley@xtra.co.nz,"Engineer, structural","Smith, Brown and Russell",144000
+Lang,Isaiah,27,Green,7459,james39@brown.ac.nz,IT sales professional,Love-Mears,155000
+Smith,David,58,TPM,2329,zoe44@smart.nz,Clinical molecular geneticist,Lucas Ltd,223000
+Reed,Angus,56,Green,9370,kate51@yahoo.com,"Administrator, arts","Day, Smith and Smith",148000
+Brown,Sarah,40,Labour,9696,lisajenkins@bassett-lang.maori.nz,Medical technical officer,Fletcher Group,39000
+West,Jake,93,ACT,5089,samuelsmith@campbell.co.nz,"Surveyor, mining","Spelman, Berkahn and Harris",226000
+O'Brien,Brian,32,Labour,8096,fclunies-ross@gmail.com,Art therapist,Mason-Jones,138000
+Roberts,Paula,89,TPM,5873,shirleygriffin@lammas.geek.nz,Visual merchandiser,Williamson-Robert,96000
+Fitzgerald,Samuel,18,ACT,9295,jacksonsarah@hotmail.com,Clothing/textile technologist,Chapman Group,179000
+Irving,Gemma,90,Labour,8411,renee10@hotmail.com,"Scientist, research (life sciences)","Hansen, McKenna and Spelman",60000
+Brown,Helen,93,TPM,8016,blackcraig@inspire.net.nz,Insurance claims handler,"O'Brien, Healey and Simpson",69000
+Sullivan,Lisa,19,NZ First,9643,smithgavin@yahoo.com,IT technical support officer,Howard LLC,53000
+Crawford,Kevin,99,ACT,2606,jnolan@gmail.com,"Optician, dispensing","Brown, Gilchrist and Hart",47000
+Chandler,Fiona,30,TPM,9744,hpaton@moore.co.nz,"Scientist, water quality","Casey, Linton and Perano",213000
+York,Heather,61,ACT,8405,joshua62@little.org.nz,"Engineer, control and instrumentation",Carter-Taylor,58000
+Ramsay,Dianne,58,National,2021,aitkenmichael@andrew-parker.net.nz,Armed forces training and education officer,Blackwell Inc,180000
+Phillips,Steven,28,Labour,6932,rebecca35@inspire.net.nz,"Restaurant manager, fast food",Gordon PLC,175000
+Hansen,Darren,25,ACT,9570,birdjacob@williams-conway.nz,Medical physicist,Watt Inc,183000
+Hay,Cameron,62,National,9832,fclaridge@inspire.net.nz,Arboriculturist,Blackwell and Sons,105000
+Collis,Danielle,97,National,2670,barbarafowler@norman.maori.nz,Magazine journalist,Green-Fisher,84000
+Williams,Alexander,98,Green,5555,stephanie65@montgomery-drake.ac.nz,Housing manager/officer,Anderson-Watt,247000
+West,Catherine,45,TPM,5101,eva77@burns-bryant.school.nz,Bookseller,Aldridge-Harris,132000
+Trask,Cheryl,72,TPM,8079,grantcarroll@griffiths-spencer.net.nz,Computer games developer,"Wills, Gibson and Harrison",44000
+Marshall,Steven,82,National,2108,herdstephen@inspire.net.nz,Visual merchandiser,"McLean, Murphy and Douglas",189000
+Stuart,Kathryn,25,ACT,9279,paulsimmons@gmail.com,Hotel manager,Collis-Evans,216000
+Ward,Tamati,31,ACT,7277,woolleymichael@xtra.co.nz,Architect,Knight-Smith,182000
+Booker,Sandra,80,TPM,1822,lward@gmail.com,"Psychologist, clinical","Taylor, Henry and Claridge",217000
+Phillips,Matthew,52,Green,6418,jamie88@browne.maori.nz,Tour manager,Leslie PLC,115000
+Murphy,Shane,43,Green,6928,jakemclean@gmail.com,Chiropodist,"Kelly, McPherson and Clunies-Ross",129000
+Humphrey,Peter,97,Labour,8122,vcurrie@wilkinson.org.nz,Amenity horticulturist,"Jones, Dyer and Wells",66000
+Taylor,Kim,41,Green,8496,joshua05@kennedy-hogg.net.nz,Records manager,Coley-Murphy,127000
+Smith,Sean,73,National,7644,taylorelizabeth@yahoo.com,Insurance underwriter,"Smith, Jones and Huddleston",143000
+Gardner,Kevin,19,TPM,2431,normankathryn@stratford.kiwi,Operations geologist,Davidson-Greer,226000
+Eden,Mathew,47,ACT,9017,jmorgan@hotmail.com,Web designer,"Phillips, Jackson and Turner",146000
+Brown,Shane,75,National,2491,gblair@yahoo.com,Oncologist,"Nielsen, McEwen and Jackson",259000
+Stewart,Joshua,80,Labour,2479,hickeymark@inspire.net.nz,Careers information officer,"Burke, Barrett and Parker",167000
+Watts,Max,94,ACT,4113,jennifer15@xtra.co.nz,"Production designer, theatre/television/film","Johansen, McMillan and Thomas",134000
+Gardner,Mark,24,ACT,8562,michael86@mackenzie.net.nz,Graphic designer,Baker Inc,68000
+Kirk,Andrew,74,Green,2010,mark13@beard.nz,Wellsite geologist,Smith-Morrison,249000
+Leslie,Susan,43,National,9559,thomas20@oneill-carter.geek.nz,Electronics engineer,Anderson-Sowman,166000
+Lucas,Zane,19,NZ First,5085,ifisher@xtra.co.nz,Agricultural consultant,"Baldick, Fowler and Smith",100000
+Saunders,Karyn,68,National,5038,ryangee@fenton-simpson.maori.nz,"Nurse, children's",Smith Ltd,101000
+Larsen,Molly,95,Labour,5328,geoffrey30@xtra.co.nz,Academic librarian,Sixtus-York,220000
+Small,Monique,68,TPM,5007,hollypritchard@xtra.co.nz,Financial planner,Campbell Group,47000
+Morrison,Renee,90,ACT,8879,tsowman@carr-satherley.geek.nz,Forensic psychologist,"McMillan, Watt and Curtis",225000
+Campbell,Lance,99,NZ First,2587,gilchristbrent@inspire.net.nz,Communications engineer,Jenkins Group,74000
+Smith,George,88,National,3888,uolsen@burns.net.nz,Sports development officer,"Cole, Sullivan and Munro",222000
+Scott,Joshua,84,TPM,6465,daniellogan@inspire.net.nz,Curator,"Booth, Powell and Armstrong",190000
+Hooper,Amelia,53,Labour,9780,lauren02@greig-greig.org.nz,Comptroller,Jensen Inc,182000
+Knight,Max,75,NZ First,8576,helen59@hotmail.com,"Scientist, physiological",Smith-Peters,72000
+McCormick,Mark,50,Green,9469,zsimonsen@mears.kiwi,Therapeutic radiographer,Aitken Ltd,196000
+Ford,Joseph,57,Green,5556,gordondaniel@gmail.com,"Lecturer, further education",Bowater Inc,226000
+McGregor,Michael,75,NZ First,2421,srobb@marfell.ac.nz,Logistics and distribution manager,"Jensen, Baker and Bell",111000
+Harris,Luke,50,National,2179,mcdonaldscott@xtra.co.nz,"Research officer, political party","Webb, Adams and McIsaac",115000
+Perano,Sean,35,Green,6020,robert62@george.kiwi,Advertising account executive,Lee-Jamieson,219000
+Smart,Denise,55,ACT,5306,nhudson@xtra.co.nz,"Education officer, museum",Baker-Atkinson,134000
+Miles,Gary,86,Green,9063,xholloway@xtra.co.nz,Chief Strategy Officer,"Jennings, Bailey and Hudson",95000
+Cairns,Ross,46,Green,9000,davidmason@yahoo.com,"Nurse, children's","West, Williams and Barnes",234000
+Jones,Kathryn,53,TPM,9503,macdonalddaniel@xtra.co.nz,Armed forces operational officer,"Cresswell, Cragg and Allan",220000
+Jeffries,Charlotte,71,TPM,9691,madeleinemitchell@hotmail.com,"Education officer, community",Dean-Spencer,238000
+Sutton,Renee,41,NZ First,5284,kaylasmith@gmail.com,Contracting civil engineer,"Martin, Allen and Hart",128000
+Taylor,Suzanne,66,NZ First,2499,williamsonzachary@gmail.com,Clinical embryologist,Davidson Ltd,251000
+O'Connor,Adrian,35,ACT,7937,anthony52@obrien-ryan.kiwi,Occupational therapist,"Evans, Franklin and Thomas",251000
+Joe,Benjamin,79,Green,6298,phoebeguthrie@waugh.ac.nz,Drilling engineer,Cresswell Inc,215000
+Hodson,Christopher,54,Labour,4113,samuel46@hotmail.com,Public relations officer,"Perrin, MacKenzie and Clarke",161000
+Scott,Brian,87,Green,5048,donna23@inspire.net.nz,Orthoptist,Chapman-Peters,49000
+Middlemiss,Kora,84,ACT,9099,blacktroy@fitzgerald.kiwi,Actor,Simpson-Pope,83000
+Grant,Tania,89,Green,5773,wramsay@woods.net.nz,Phytotherapist,"Henderson, Alexander and Berkahn",33000
+Smith,Tessa,79,Green,5721,nathan55@murdoch.ac.nz,"Production designer, theatre/television/film",Murphy PLC,176000
+Blair,Michael,35,Green,8963,jlucas@inspire.net.nz,Printmaker,"Guy, Toms and Allan",109000
+Mayo,Aaron,84,National,5545,kdoherty@xtra.co.nz,"Sales professional, IT","Findlay, Sanders and Dean",202000
+Henderson,Helen,47,Green,9418,kevin65@inspire.net.nz,"Scientist, research (maths)",Mason Inc,46000
+Fowler,Shane,98,National,2225,declanperry@black.org.nz,Health and safety adviser,"Learmonth, Bailey and Patchett",195000
+Hughes,Philip,98,National,6457,rochelle15@hotmail.com,"Surveyor, building",Irving Inc,103000
+Vercoe,Shirley,92,Labour,5156,wooddavid@kenny.kiwi.nz,Community arts worker,"Wells, Cooke and Watt",37000
+Barnett,Steven,39,National,9439,philip94@inspire.net.nz,Diagnostic radiographer,Matthews-Baker,207000
+Stratford,Deborah,65,Green,9245,louiserush@gmail.com,Furniture designer,Morris-Mason,190000
+Boyd,Shannon,59,TPM,5316,ronald57@mcmanaway.nz,"Administrator, arts",Bright-Bishell,154000
+Gaskin,Steven,33,Green,8531,newmankim@inspire.net.nz,Production engineer,Esson Group,119000
+Olsen,Louise,59,Green,6939,matthew69@guard.co.nz,Games developer,Morgan LLC,186000
+Stone,Dennis,93,Labour,9227,shawgeorge@gordon.kiwi.nz,"Conservator, furniture","Thomas, Thomas and Woolley",140000
+Bruce,Richard,93,ACT,9277,simpsonjason@brown.org.nz,Technical author,Simpson-Butler,49000
+Pratt,Linda,74,NZ First,6234,flloyd@xtra.co.nz,Chief Technology Officer,Rogers LLC,128000
+Holdaway,David,36,Green,2063,thomasjesse@gmail.com,Insurance risk surveyor,Jackson-Chapman,71000
+Read,Samantha,31,ACT,6483,daniel33@thompson.maori.nz,Farm manager,Taylor-Webb,206000
+Jackson,Susan,30,Green,8292,matthewgibbons@yahoo.com,"Administrator, Civil Service","Phillips, Woolley and O'Sullivan",134000
+Hansen,Carter,88,Green,4510,cameron73@inspire.net.nz,Charity fundraiser,Bradley-Page,239000
+Barnes,John,53,Green,5022,heathercoleman@inspire.net.nz,Cartographer,Miller-McMillan,77000
+Gee,Elizabeth,18,ACT,3274,murray80@hotmail.com,Geographical information systems officer,Stone-Rogers,65000
+Caldwell,Toby,69,National,9574,graham27@brown-newton.net.nz,Landscape architect,Ward-Montgomery,201000
+Gore,Fiona,48,TPM,5751,russellharris@henderson.geek.nz,Historic buildings inspector/conservation officer,"Gray, Russell and Hayes",235000
+Procter,Fiona,20,NZ First,5124,mmartin@jefferies.net.nz,Clinical research associate,"Nicholson, Ireland and Rasmussen",133000
+Thompson,Alison,73,ACT,0841,lmcintosh@hotmail.com,Mechanical engineer,Hood-Booker,69000
+Cairns,Jackson,39,TPM,9618,thart@gmail.com,Archivist,"Jenkins, Bartlett and Kenny",78000
+Martin,Rachael,47,ACT,9098,markwilliams@burnett.maori.nz,Teaching laboratory technician,Grant Group,231000
+Crawford,Hannah,21,National,5778,christopherholloway@gmail.com,Herbalist,"North, Hughes and Nolan",165000
+Simonsen,Christopher,58,Labour,9278,andreawilliams@xtra.co.nz,IT consultant,Jensen-North,117000
+Murdoch,Alex,42,NZ First,8522,thomas20@inspire.net.nz,"Secretary, company",Matthews-Mason,195000
+Horton,Paula,45,ACT,8499,akelly@boon.net.nz,Mental health nurse,Smith LLC,242000
+Hamilton,Anthony,38,ACT,5878,cameron38@yahoo.com,"Programmer, multimedia","Kelly, Nelson and Small",181000
+Williams,Martin,45,TPM,5157,warren51@xtra.co.nz,Health physicist,Watts-Anderson,94000
+Brown,Jackson,67,Labour,2306,wallislisa@xtra.co.nz,Immigration officer,"Jones, Millar and Allerby",82000
+Freeth,Hamish,70,TPM,5806,smithbenjamin@hotmail.com,Ambulance person,"Edwards, Grant and Pearson",253000
+Griffiths,Noah,76,ACT,6416,pstevenson@xtra.co.nz,Community education officer,Gullery-Stewart,149000
+Lewis,Cameron,49,NZ First,5358,findlaycaitlin@woolley.ac.nz,Secretary/administrator,Bush-Anderson,68000
+Boon,Matthew,71,Green,0845,peter77@hotmail.com,Chief of Staff,Currie-Burrell,244000
+Willis,Steven,75,TPM,9587,tyler12@inspire.net.nz,Risk manager,"Smith, Healy and O'Connor",101000
+Martin,George,88,ACT,0175,butlerjoshua@hotmail.com,"Administrator, charities/voluntary organisations",Robson Ltd,83000
+Edmonds,Reuben,29,NZ First,2046,mgiles@xtra.co.nz,Logistics and distribution manager,Cameron PLC,190000
+Morgan,Bradley,65,Green,8408,greigjared@inspire.net.nz,Fine artist,"Southee, Wilkinson and Hyde",185000
+Small,Louise,35,ACT,8617,aidantaylor@yahoo.com,"Administrator, local government",Holloway Group,158000
+Rutherford,Ari,67,NZ First,6044,msimpson@gmail.com,"Administrator, sports","Drake, Manson and Stevenson",44000
+Paul,Emma,31,Green,6249,michael63@xtra.co.nz,Forest/woodland manager,Meads and Sons,223000
+Graham,Andrew,22,National,8544,steven67@gmail.com,Higher education careers adviser,Davies and Sons,231000
+Coleman,Cheryl,53,ACT,2584,rmccallum@leslie-morris.school.nz,Architect,Bowater Inc,111000
+Edwards,Adrian,74,Labour,8627,nturner@smith.kiwi,Public affairs consultant,"Parkes, Ward and Hart",119000
+Stewart,Amaia,35,TPM,8006,abigail13@inspire.net.nz,"Administrator, Civil Service",Simmonds-McIsaac,133000
+O'Brien,Hayley,94,National,5103,jason23@franklin-waugh.kiwi.nz,"Exhibitions officer, museum/gallery",Coutts Ltd,41000
+Wells,Neil,34,ACT,0810,davidmay@harrison.maori.nz,"Engineer, chemical",Booker-Williamson,41000
+Hood,Lisa,42,National,8918,sdalziel@curtis.geek.nz,Waste management officer,Jones and Sons,159000
+Bishop,Philip,87,NZ First,5239,chamberstessa@waller.kiwi.nz,"Surveyor, mining",Hope Inc,116000
+Booth,Stephen,73,TPM,9409,pedersenjessica@xtra.co.nz,Chief Marketing Officer,Fisher-Scott,187000
+Ryan,Mark,35,ACT,5570,deniseadams@inspire.net.nz,Transport planner,Nash Ltd,89000
+Andrew,Patrick,20,TPM,6402,woodstania@hotmail.com,Metallurgist,Currie Group,88000
+Ward,Logan,33,Green,9597,chandlerross@burton.ac.nz,"Engineer, electronics",Dixon-McEwen,110000
+Gibson,Grant,94,National,5134,peterrush@inspire.net.nz,Arboriculturist,Baxter-Middleton,94000
+Robert,Austin,95,ACT,5543,aidanhayward@xtra.co.nz,Gaffer,Hadfield PLC,154000
+Miller,Robert,19,National,6999,thomas62@davenport.org.nz,Leisure centre manager,"Johnston, Procter and Thompson",257000
+Stone,Michael,69,ACT,9730,lesley27@jones.net.nz,Television floor manager,Rogers-Ritchie,102000
+Lane,Maia,41,ACT,8917,sophiekay@dyer-whyte.org.nz,Clinical embryologist,Stuart PLC,133000
+Thomas,Geoffrey,91,TPM,2461,dickian@yahoo.com,TEFL teacher,Jefferies-Baker,44000
+Boyd,Samantha,26,ACT,8206,helencampbell@baldwin-rodgers.geek.nz,"Designer, furniture",Esson PLC,40000
+Thomas,Nikau,91,Labour,9812,hannah63@walsh.geek.nz,Estate agent,Carr-Smith,132000
+Ward,Sebastian,60,National,2418,brendonthompson@andrew-jeffries.co.nz,"Scientist, water quality",Neal PLC,248000
+Andrew,Carl,79,Labour,9345,samuel91@hamilton-stevens.nz,Risk analyst,Lloyd-Cresswell,133000
+Sutton,Bryan,71,ACT,2605,donna20@munro-corbett.nz,Building services engineer,Williamson-Munro,145000
+Sinclair,Robert,41,Green,5234,chenderson@gmail.com,"Surveyor, minerals",Waugh PLC,88000
+Taylor,Flynn,35,Labour,5561,michelle83@inspire.net.nz,"Designer, textile",Harris-Forbes,36000
+Marshall,Justin,26,Green,9777,ihealy@harper-terry.school.nz,Art gallery manager,Harrison-Brown,200000
+Vincent,Kane,27,ACT,6272,ugraham@hotmail.com,"Optician, dispensing",Barrett Group,193000
+Jellyman,Caleb,66,ACT,8488,marcus55@coleman.kiwi.nz,"Teacher, early years/pre","Holland, Smith and Taylor",38000
+Fisher,Thomas,23,National,5247,ryanrowland@higgins.nz,Recruitment consultant,"Muir, Coleman and Wells",255000
+Humphrey,Anna,62,ACT,0114,peternewman@hotmail.com,"Social research officer, government",Roberts-McMurray,112000
+Adams,Paige,53,TPM,9396,christine84@inspire.net.nz,Tourist information centre manager,Searle-Lyon,90000
+York,Sione,62,ACT,8526,denisecole@grant-waller.org.nz,"Clinical scientist, histocompatibility and immunogenetics",Mason Inc,72000
+Hodson,Alexander,90,ACT,8657,nevaehkirk@cook.kiwi.nz,Speech and language therapist,"Smith, Evans and Monk",187000
+Cameron,Connor,93,National,9692,khawkins@harrison.kiwi,Armed forces logistics/support/administrative officer,"Whittaker, McIsaac and Gibson",47000
+Jones,Amber,27,Green,3220,tuicorlett@xtra.co.nz,Furniture conservator/restorer,"Carr, Bull and Brooks",233000
+McLachlan,Vicki,52,NZ First,5768,brooksbrooke@hotmail.com,Visual merchandiser,Phillips-Mortimer,77000
+Morton,Bronwyn,32,Labour,3662,wmcewen@xtra.co.nz,Community education officer,Linton Group,47000
+Morrison,Natalie,59,National,5179,guardchristopher@leslie.kiwi,Neurosurgeon,"Harris, Thompson and Smith",220000
+Anderson,Simon,62,NZ First,6488,jennifersmith@gmail.com,Neurosurgeon,Barr-Jones,33000
+Ford,Craig,95,National,8888,karen64@steer-turnbull.kiwi,General practice doctor,"Baker, Smith and Hughes",124000
+Gordon,Dennis,89,Labour,8404,laingphoebe@gmail.com,"Production assistant, radio","Coleman, Harrison and Scott",81000
+McMillan,Jason,46,Labour,6478,aaronhood@xtra.co.nz,Secondary school teacher,Phillips-Dillon,101000
+Toms,Nicole,95,TPM,5296,wrattdavid@brown.nz,Manufacturing engineer,Jacques LLC,92000
+Boon,Tama,48,National,8895,blairmichael@stokes.geek.nz,Public affairs consultant,Boyce-Stewart,239000
+Andrew,Hoani,76,Green,5869,mark39@gledhill-webster.org.nz,Software engineer,"Harris, Roberts and Fitzgerald",243000
+Neal,Justine,19,ACT,2597,sarah93@gmail.com,Civil Service administrator,Wells-Tucker,215000
+Turner,Joshua,38,Green,1609,darren98@xtra.co.nz,Minerals surveyor,Harris PLC,48000
+Wells,Austin,98,NZ First,1474,joshua78@newton.org.nz,Microbiologist,Muir-Butler,63000
+Allerby,Isaac,74,NZ First,5893,allanwills@xtra.co.nz,Air traffic controller,Baker-Holmes,240000
+Williamson,Ayla,32,ACT,8956,abowden@xtra.co.nz,Human resources officer,Taylor-Green,32000
+Gunn,Sophie,97,National,6008,khawkins@carr.maori.nz,"Surveyor, hydrographic",Ewart and Sons,166000
+Larsen,Christine,75,ACT,5741,dbrown@henry.org.nz,Oceanographer,"Davison, Brown and Greig",247000
+Hansen,George,55,National,9060,michellecoutts@yahoo.com,"Research officer, political party",Butcher LLC,244000
+Brown,Stuart,59,ACT,0503,williamspeter@yahoo.com,Visual merchandiser,"Thomas, Bruce and Currie",154000
+Munro,Alison,22,NZ First,9524,warnerfinn@wells.nz,Magazine features editor,"Mason, Way and Wallis",147000
+Millar,Aaron,43,Green,9438,brendon78@xtra.co.nz,"Teacher, secondary school","Ball, Williams and Douglas",166000
+Bell,Nikita,81,Green,5572,taylorevans@harper.geek.nz,IT trainer,"Brown, Stevenson and Costello",112000
+Lowe,Hamish,90,National,8617,hansenmelanie@hotmail.com,Estate manager/land agent,Green PLC,192000
+Ball,David,42,Green,9896,finncook@xtra.co.nz,Estate manager/land agent,Nolan-Gibbs,111000
+Pratt,Dion,50,TPM,2116,hhadfield@kelly-duncan.maori.nz,"Physicist, medical","Cameron, Watt and Jones",31000
+Reynolds,Mason,57,NZ First,2002,bartlettjohn@boyce.nz,Hydrogeologist,Bailey Inc,116000
+Ryan,Jason,50,NZ First,9337,hmarsh@edwards.maori.nz,"Education officer, museum","McCallum, Hart and Hills",185000
+Ryan,Dylan,42,TPM,6130,geemichael@rodgers.net.nz,Interpreter,Butcher PLC,32000
+Jones,Liam,80,NZ First,4779,tuckermadeleine@gmail.com,Sports coach,Strawbridge Inc,116000
+Nicholson,Grant,60,Labour,5390,littlemason@brown.school.nz,Fisheries officer,"Dixon, Francis and Grant",165000
+Bowater,William,98,TPM,9831,andrew80@cameron-freeman.kiwi,"Education officer, community","Thomas, Blick and Small",217000
+Buchanan,Stuart,98,NZ First,5247,sarahsutton@hotmail.com,Psychiatrist,MacDonald PLC,235000
+Wells,David,46,ACT,2207,carteranthony@ward-black.net.nz,Lobbyist,Todd-Smith,73000
+Carr,Stuart,39,Labour,8248,cartermark@inspire.net.nz,Chartered accountant,"Moore, Greig and Hodson",219000
+Butcher,James,75,Green,4204,garethtaylor@inspire.net.nz,Air broker,Williams Inc,51000
+Low,Raymond,47,National,8634,qharris@hopkins-carter.nz,Curator,Holloway Inc,44000
+McManaway,William,39,ACT,4157,ryanshane@sanders-wills.nz,Psychiatrist,"Curtis, MacDonald and Curtis",127000
+Marshall,Christina,46,TPM,4173,cmcdonald@inspire.net.nz,Medical technical officer,"Mason, Rossiter and Williams",163000
+Marfell,Daniel,22,National,2127,jessicabroughan@xtra.co.nz,Dietitian,Thompson LLC,237000
+Thomas,Daniel,82,ACT,5072,robynham@hotmail.com,"Presenter, broadcasting",Smith PLC,171000
+Bell,Nicholas,48,National,2258,michael00@green-hubbard.org.nz,"Research officer, political party","Perry, Perry and Smith",254000
+Smith,Joshua,67,NZ First,5151,timothyevans@wood-aberhart.ac.nz,Film/video editor,Johansen-Doyle,81000
+Eden,Benjamin,80,National,9654,awest@inspire.net.nz,Forest/woodland manager,"Hughes, Rush and Gilchrist",103000
+Smith,Anahera,99,National,9088,raymondjones@gibbs-green.co.nz,"Surveyor, mining","Gore, Laing and Hope",160000
+Taylor,Eden,59,TPM,2346,kieran58@yahoo.com,English as a foreign language teacher,Gordon-Martin,50000
+Waghorn,Lynda,18,NZ First,6441,ojarvis@hotmail.com,"Engineer, land",Warner and Sons,213000
+Simpson,Jeffrey,45,Green,9680,lydia24@ryan-bird.geek.nz,Dealer,Howard-Bond,131000
+Walton,Dean,49,Green,8999,stacemichael@yahoo.com,Scientific laboratory technician,Osborne-Stewart,171000
+Brown,Patricia,92,National,8513,fletchergordon@gmail.com,"Engineer, land",Hart-Goodwin,178000
+Neal,Ana,90,TPM,5865,ddavison@yahoo.com,Community education officer,Cameron-Fisher,93000
+Phillips,Michael,93,ACT,5513,deborah33@yahoo.com,Commercial/residential surveyor,Nicholson LLC,52000
+Jenkins,Peter,68,TPM,8943,robsontia@campbell.geek.nz,Sales executive,Dawick-Brown,110000
+Burton,Jonathan,26,Labour,6143,lesliecharles@craig.org.nz,"Surveyor, insurance",Cook-Gilbert,93000
+Paton,Andrew,82,Labour,8113,hamish54@mcdowall.kiwi,Stage manager,Cook Group,121000
+Perano,Janine,42,TPM,9661,bhoward@xtra.co.nz,Hydrogeologist,"Robson, Brown and Gardiner",141000
+Watts,Colleen,38,Green,8920,keaton@gmail.com,"Research officer, trade union",McDowall Inc,215000
+Dalziel,Nicole,94,Green,9867,reednaomi@okeefe-toms.kiwi,"Production assistant, television",Boyle-Watt,120000
+Anderson,Bradley,18,Labour,5026,william17@xtra.co.nz,"Designer, industrial/product",Scott Ltd,99000
+Millar,Alexander,52,Green,8480,calebmcintosh@xtra.co.nz,"Surveyor, planning and development",Taylor LLC,199000
+Rasmussen,Rebecca,90,Green,9073,brucemcdonald@mckay-edwards.maori.nz,Industrial buyer,"Peterson, Hardie and Boon",159000
+Learmonth,Catherine,47,NZ First,6478,cbush@gmail.com,Dentist,Hadfield-Guard,252000
+Peters,Samuel,58,Labour,9071,lucyfunnell@hotmail.com,"Engineer, manufacturing",Barnes-Stone,80000
+Rodgers,Ruby,88,ACT,8551,benjaminbarrett@hotmail.com,"Engineer, civil (consulting)","Donald, Harris and Johnstone",251000
+Farland,Jeremy,36,Green,0260,tbaldick@yahoo.com,Field seismologist,"Bailey, Williams and Knight",94000
+Higgins,Maya,87,National,0325,mathesoncatherine@black.ac.nz,Contractor,Campbell Group,183000
+Funnell,Christine,86,ACT,5276,alexandra58@hotmail.com,Maintenance engineer,Scott PLC,221000
+Gibson,Logan,27,TPM,8463,nosullivan@yahoo.com,Cytogeneticist,"Higgins, Burr and Morgan",155000
+Murphy,William,47,Green,5103,sophie73@clifford.maori.nz,Museum/gallery conservator,Jackson-Poole,256000
+Barrett,Joshua,25,National,9419,andersonduncan@mcgill-jamieson.kiwi.nz,Sales promotion account executive,"Marshall, Holloway and Casey",167000
+Baxter,Susan,20,TPM,2369,qrush@paton.maori.nz,Engineering geologist,Law PLC,214000
+Field,Emma,34,Green,4217,angelablack@hotmail.com,"Development worker, international aid",Oliver-Smart,122000
+Skinner,Maddison,52,TPM,8820,pmcgregor@inspire.net.nz,Insurance claims handler,Casey LLC,203000
+Morgan,Allan,43,NZ First,8245,david46@hotmail.com,Magazine features editor,Jefferies-MacKenzie,227000
+Lamb,Reuben,67,National,5187,baileykelly@inspire.net.nz,Petroleum engineer,"Hyde, Larsen and Henderson",62000
+Caldwell,Gary,66,TPM,2003,campbellgeoffrey@murdoch.school.nz,"Psychologist, counselling","Lloyd, Carr and Manning",69000
+Ham,John,34,Labour,2426,melanie53@hotmail.com,Electrical engineer,Weston-Hills,32000
+Gibson,Amanda,95,Labour,3294,aiden66@meredith.kiwi.nz,Travel agency manager,Pedersen Group,158000
+Rogers,Louis,59,ACT,5853,grahamhelen@frost.kiwi.nz,Risk analyst,Hamilton-Ford,69000
+Campbell,Dylan,75,National,1512,taylorlisa@xtra.co.nz,"Psychologist, forensic",Neal Inc,154000
+Roberts,Laura,77,Green,5048,zcurrie@fulton-fowler.kiwi.nz,Heritage manager,Boyd-Riley,256000
+Anderson,Julie,56,TPM,6022,jonathanherd@gmail.com,"Geneticist, molecular",Taylor-Turner,76000
+Dawson,Mia,58,National,6414,pbull@hewitt.kiwi.nz,Local government officer,Baldwin-Hansen,49000
+Fuller,Rebecca,25,NZ First,9700,grahamalexander@yahoo.com,"Engineer, mining",Mears-McDonald,105000
+Burton,Charles,69,National,9359,jameslucas@newman.kiwi.nz,"Copywriter, advertising",Mears Group,139000
+Scott,Sarah,83,Green,5131,omoore@barnes.org.nz,Print production planner,Casey-Sullivan,105000
+Morris,Thomas,46,TPM,8264,john34@gmail.com,Food technologist,Hansen Inc,143000
+Pearson,Sarah,20,TPM,5841,linda35@hotmail.com,Air cabin crew,"Shepherd, Donaldson and Little",204000
+Jones,Mark,21,Green,3705,williamoliver@gmail.com,Astronomer,"Johnston, Davison and Mason",246000
+Gibbons,Nicole,83,Labour,6495,geoffrey59@davies-edwards.org.nz,Financial trader,Morris-Warner,130000
+Lane,Katie,32,Labour,2555,robertwaters@gmail.com,Market researcher,Mason-Morris,123000
+Foote,Michelle,47,NZ First,7270,matthew27@mccormick.school.nz,Podiatrist,"Guthrie, Fowler and Lyon",174000
+Davison,Cody,96,National,9375,craig16@inspire.net.nz,"Designer, fashion/clothing","Arnold, Thompson and Smith",65000
+Clifford,Karen,28,Green,8800,jayden03@thomas.nz,Herbalist,"Mitchell, Frost and Pratt",134000
+Hansen,Joanne,36,NZ First,6132,osbornesandra@xtra.co.nz,Magazine features editor,Blackwell-Boyce,117000

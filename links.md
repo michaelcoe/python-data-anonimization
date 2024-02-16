@@ -45,3 +45,4 @@ any links that you are not going to use.
 [swc-releases]: https://github.com/swcarpentry/swc-releases
 [training]: https://carpentries.github.io/instructor-training/
 [yaml]: https://yaml.org/
+[python-novice-gapminder]: https://github.com/swcarpentry/python-novice-gapminder
