@@ -1,5 +1,5 @@
 ---
-title: 'Pandas DataFrames'
+title: Syntehtic Data
 teaching: 15
 exercises: 15
 ---

@@ -1,5 +1,5 @@
 ---
-title: Programming Style
+title: pyCANON
 teaching: 15
 exercises: 15
 ---

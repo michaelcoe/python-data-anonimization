@@ -11,7 +11,7 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Data Anonomization With Python'
+title: 'Data Anonomization With ARX'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2024-02-14'
@@ -59,20 +59,26 @@ contact: 'team@carpentries.org'
 
 # Order of episodes in your lesson
 episodes:
-- 01-run-quit.Rmd
-- 02-variables.Rmd
-- 03-types-conversion.Rmd
-- 04-built-in.Rmd
-- 05-coffee.Rmd
-- 06-libraries.Rmd
-- 07-reading-tabular.Rmd
-- 08-data-frames.Rmd
-- 09-anonymization-methods.Rmd
-- 10-lunch.Rmd
-- 11-randomization.Rmd
-- 12-aggregation.Rmd
-- 13-masking.Rmd
-- 14-synthetic-data.Rmd
+- 01-terminology.md
+- 02-basic-anonymization-techniques.md
+- 03-masking.md
+- 04-randomization.md
+- 05-coffee.md
+- 06-aggregation.md
+- 07-pertubation.md
+- 08-synthetic-data.md
+- 09-attack-vectors.md
+- 10-lunch.md
+- 11-advanced-anonymization-techniques.md
+- 12-k-alpha-k-anonymity.md
+- 13-entropy-recursive-l-diversity.md
+- 14-t-closeness.md
+- 15-coffee.md
+- 16-basic-enhanced-beta-likeness.md
+- 17-delta-closure-privacy.md
+- 18-pycanon.md
+- 19-wrap.md
+- 20-feedback.md
 
 # Information for Learners
 learners:

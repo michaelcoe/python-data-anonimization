@@ -2,10 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-This lesson is an introduction to programming in Python 3 for people with little or no previous
-programming experience. It uses anonymization of data as its motivating example and is designed to be used in
-both [Data Carpentry][dc-lessons] and [Software Carpentry][swc-lessons] workshops. The python introduction and data are copied from the [Python-Novice-Gapminder][python-novice-gapminder] Software Carpentry lessons. For a more indepth introduction to plotting, please see that lesson.
-This lesson references [JupyterLab][jupyterlab] but can be taught using alternative Python 3 interpreters
+This lesson is an introduction to anonymization of data using Python 3 and [Arx-Data Anonymization Tool][Arx-software] (Arx). The lessons assume you have prior knownledge of Python 3 but you don't need prior knowledge of Arx. This lesson references [JupyterLab][jupyterlab] but can be taught using alternative Python 3 interpreters
 as well (e.g., repl.it, Anaconda).
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
@@ -13,17 +10,15 @@ as well (e.g., repl.it, Anaconda).
 ## Prerequisites
 
 1. Learners need to understand what files and directories are,
-  what a working directory is,
-  and how to start a Python interpreter.
+  what a working directory is, and how to start a Python interpreter.
 
 2. Learners must install Python 3 before the class starts.
 
-3. Learners must get the gapminder data before class starts:
+3. Learned must install Arx Anonymization software before the class starts.
+
+3. Learners must get the synethtic data before class starts:
   please download and unzip the file
   [data-anonymization-python.zip](episodes/files/data-anonymization-python.zip).
-
-Please see [the setup instructions](learners/setup.md)
-for more details.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

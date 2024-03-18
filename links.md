@@ -46,3 +46,6 @@ any links that you are not going to use.
 [training]: https://carpentries.github.io/instructor-training/
 [yaml]: https://yaml.org/
 [python-novice-gapminder]: https://github.com/swcarpentry/python-novice-gapminder
+[Arx-software]: https://arx.deidentifier.org/downloads/
+[Apache LICENSE-2.0]: https://www.apache.org/licenses/LICENSE-2.0
+[python-faker]: https://faker.readthedocs.io/en/master/

@@ -1,5 +1,5 @@
 ---
-title: Variable Scope
+title: Delta Closure Privacy
 teaching: 10
 exercises: 10
 ---

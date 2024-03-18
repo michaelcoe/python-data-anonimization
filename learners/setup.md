@@ -2,15 +2,8 @@
 title: Setup
 ---
 
-If you are not new to Python but new to using pandas dataframes, please skip to [Episode 7](07-reading-tabular.Rmd).  If you are comfortable with Python and Pandas, please skip to [Episode 9](09-anonymization-methods.Rmd). 
-
 ## Data Sets
 
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
 Download the [data-anonymization-python.zip](episodes/files/data-anonymization-python.zip) and unzip it to your Desktop
 
 ## Software Setup
@@ -19,7 +12,11 @@ Download the [data-anonymization-python.zip](episodes/files/data-anonymization-p
 
 ### Details
 
-Software Setup is explained in [Episode 1](01-run-quit.Rmd).
+For basic anonymization, we will use Python 3, pandas, and faker. It is assumed that you have already set up and can use Python 3 and you know how to install the two packages listed.
+
+For more advanced anonymization, we will use Arx-Data Anonymization Tool.Arx software was chosen because it is free and open-sourced. It is licensed under the [Apache LICENSE-2.0][Apache LICENSE-2.0]. It further uses external libraries, which have licenses that can be seen inside their respective folders.
+
+Download and install the [Arx-Data Anonymization Tool][Arx-software] for the operating system of your choosing. Windows 64-bit, MacOS 64-bit, and Linux/GTK 64-bit are all supported.  
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 

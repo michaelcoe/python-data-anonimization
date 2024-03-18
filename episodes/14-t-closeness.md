@@ -1,5 +1,5 @@
 ---
-title: Looping Over Data Sets
+title: t-closeness
 teaching: 5
 exercises: 10
 ---

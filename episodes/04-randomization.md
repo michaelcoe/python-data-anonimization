@@ -1,5 +1,5 @@
 ---
-title: Built-in Functions and Help
+title: Randomization
 teaching: 15
 exercises: 10
 ---

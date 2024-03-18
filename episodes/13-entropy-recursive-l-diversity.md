@@ -1,5 +1,5 @@
 ---
-title: Conditionals
+title: Entropy Recursive and l-diversity
 teaching: 10
 exercises: 15
 ---

@@ -1,5 +1,5 @@
 ---
-title: Writing Functions
+title: Basic Enhanced Beta Likeness
 teaching: 10
 exercises: 15
 ---
