@@ -7,10 +7,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/01-run-quit.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/01-terminology.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/02-basic-anonymization-techniques.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/02-data-frames.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/02-variables.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/03-masking.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/03-types-conversion.html</loc>
@@ -19,10 +28,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/04-built-in.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/04-randomization.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/05-coffee.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/06-aggregation.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/06-libraries.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/07-pertubation.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/07-reading-tabular.html</loc>
@@ -31,10 +49,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/08-data-frames.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/08-synthetic-data.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/09-anonymization-methods.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/09-attack-vectors.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/10-lunch.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/11-advanced-anonymization-techniques.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/11-randomization.html</loc>
@@ -43,10 +70,37 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/12-aggregation.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/12-k-alpha-k-anonymity.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/13-entropy-recursive-l-diversity.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/13-masking.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/14-synthetic-data.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/14-t-closeness.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/15-coffee.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/16-basic-enhanced-beta-likeness.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/17-delta-closure-privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/18-pycanon.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/19-wrap.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/20-feedback.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/404.html</loc>
@@ -73,10 +127,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/01-run-quit.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/01-terminology.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/02-basic-anonymization-techniques.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/02-data-frames.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/02-variables.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/03-masking.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/03-types-conversion.html</loc>
@@ -85,10 +148,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/04-built-in.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/04-randomization.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/05-coffee.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/06-aggregation.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/06-libraries.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/07-pertubation.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/07-reading-tabular.html</loc>
@@ -97,10 +169,19 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/08-data-frames.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/08-synthetic-data.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/09-anonymization-methods.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/09-attack-vectors.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/10-lunch.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/11-advanced-anonymization-techniques.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/11-randomization.html</loc>
@@ -109,10 +190,37 @@
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/12-aggregation.html</loc>
   </url>
   <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/12-k-alpha-k-anonymity.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/13-entropy-recursive-l-diversity.html</loc>
+  </url>
+  <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/13-masking.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/14-synthetic-data.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/14-t-closeness.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/15-coffee.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/16-basic-enhanced-beta-likeness.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/17-delta-closure-privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/18-pycanon.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/19-wrap.html</loc>
+  </url>
+  <url>
+    <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/20-feedback.html</loc>
   </url>
   <url>
     <loc>https://michaelcoe.github.io/python-data-anonimization/instructor/404.html</loc>
