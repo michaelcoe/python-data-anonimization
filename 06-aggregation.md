@@ -1,5 +1,5 @@
 ---
-title: Libraries
+title: Aggregation
 teaching: 10
 exercises: 10
 ---

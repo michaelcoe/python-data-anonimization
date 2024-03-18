@@ -1,5 +1,5 @@
 ---
-title: Lists
+title: Advanced Anonymization Techniques
 teaching: 10
 exercises: 10
 ---

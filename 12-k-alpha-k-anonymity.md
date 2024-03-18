@@ -1,5 +1,5 @@
 ---
-title: For Loops
+title: k-alpha and k-anonymity
 teaching: 10
 exercises: 15
 ---
