@@ -61,8 +61,8 @@ contact: 'team@carpentries.org'
 episodes:
 - 01-terminology.md
 - 02-basic-anonymization-techniques.md
-- 03-masking.md
-- 04-randomization.md
+- 03-randomization.md
+- 04-masking.md
 - 05-coffee.md
 - 06-aggregation.md
 - 07-pertubation.md
