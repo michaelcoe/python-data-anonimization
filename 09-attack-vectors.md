@@ -6,381 +6,91 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Create a time series plot showing a single data set.
-- Create a scatter plot showing relationship between two data sets.
+- Learn about the types of attacks people can use to identify participants in data.
+- Learn which types of techniques correspond to which type of attack.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- How can I plot my data?
-- How can I save my plot for publishing?
+- What are the 7 types of attacks to identify participants from data?
+- Is there a technique that protects against all attacks?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## [`matplotlib`](https://matplotlib.org/) is the most widely used scientific plotting library in Python.
+## Attack Vectors
 
-- Commonly use a sub-library called [`matplotlib.pyplot`](https://matplotlib.org/stable/tutorials/introductory/pyplot.html).
-- The Jupyter Notebook will render plots inline by default.
+Diaz and Garcia [^1] give a good overview of the common attacks on databases. The following table outlines the 7 types of attacks.
 
-```python
-import matplotlib.pyplot as plt
-```
+| Attack | Description |
+| ------ | ----------- |
+| Linkage | Consists of combining at least two anonymized databases in order to reveal the identity of some individuals present in both. |
+| Re-identification | This kind of attacks occurs when the anonymization process is reversed. |
+| Homogeneity | Can occur when all the values for a sensitive attribute in an equivalence class are identical. |
+| Background Knowledge | In this case, the adversary has some foreknowledge about the target of the attack (e.g. knows some auxiliary information about an individual in the database). |
+| Skewness | Can be carried out when there is an infrequent value for a sensitive attribute in the whole database which is extremely frequent in an equivalence class. |
+| Similarity | May occur when the values of a sensitive attribute in an equivalence class are semantically similar (although different). |
+| Inference | Consists of using data mining techniques in order to extract information from the data. |
 
-- Simple plots are then (fairly) simple to create.
 
-```python
-time = [0, 1, 2, 3]
-position = [0, 100, 200, 300]
+## Techniques
 
-plt.plot(time, position)
-plt.xlabel('Time (hr)')
-plt.ylabel('Position (km)')
-```
+| Technique                    | Linkage | Re-identification | Homogeneity | Background | Skewness | Similarity | Influence |
+| ---------------------------- | :-----: | :---------------: | :---------: | :--------: | :------: | :--------: | :-------: |
+| k-anonymity | $\checkmark$ | $\checkmark$ |  |  |  |  |  |
+| ($\alpha$,k)-anonymity | $\checkmark$ | $\checkmark$ | $\checkmark$ |  |  |  |  |
+| $l$-diversity | | | $\checkmark$ | $\checkmark$ |  |  |  |
+| Entropy $l$-diversity |  |  | $\checkmark$ | $\checkmark$ |  |  |  |
+| Recursive ($c,l$)-diversity |  |  | $\checkmark$ | $\checkmark$ |  |  | |
+| t-closeness |  |  |  |  | $\checkmark$ | $\checkmark$ |  |
+| Basic $\beta$-likeness |  |  |  |  | $\checkmark$  |  |  |
+| Enhanced $\beta$-likeness |  |  |  |  | $\checkmark$ |  |  |
+| $\delta$-disclosure privacy |  |  |  |  | $\checkmark$ |  | $\checkmark$ |
 
-![](fig/9_simple_position_time_plot.svg){alt='Simple Position-Time Plot'}
+Here we will go into more detail about each technique.
 
-:::::::::::::::::::::::::::::::::::::::::  callout
+### k-anonymity
+A database verifies k-anonymity if each equivalence class of the database has at least k rows. In
+other words, for each row of the database, there are at least k-1 indistinguishable rows with respect to the quasi-identifiers. Note that $k \geq 1$ is always verified and the probability of identifying an individual in the database using the quasi-identifiers will be at most 1/k.
 
-## Display All Open Figures
+### ($\alpha$,k)-anonymity
+Given only one sensitive attribute $S$, it is checked if the database is k-anonymous and the frequency of each possible value of $S$ is lower or equal than $\alpha$ in each equivalence class.
 
-In our Jupyter Notebook example, running the cell should generate the figure directly below the code.
-The figure is also included in the Notebook document for future viewing.
-However, other Python environments like an interactive Python session started from a terminal
-or a Python script executed via the command line require an additional command to display the figure.
+### $l$-diversity
+In the case of a single sensitive attribute $S$, it is satisfied if for each equivalence class, there are at least $l$ distinct values for $S$. Note that $l \geq 1$ is always verified.
 
-Instruct `matplotlib` to show a figure:
+### Entropy $l$-diversity
+A database with a single sensitive attribute S verifies this condition if $H(EC) > \log(l)$, for
+every equivalence class EC of the database. Note that $H(EC)$ is the entropy of the equivalence class $EC$, defined as:
 
-```python
-plt.show()
-```
+$$ H(EC) = -\sum_{s \in D} p(EC, s)\log(p(EC,s)),$$
 
-This command can also be used within a Notebook - for instance, to display multiple figures
-if several are created by a single cell.
+with D the domain of $S$, and $p(EC, s)$ the fraction of records in $EC$ that have $s$ sensitive attribute.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+### Recursive $(c,l)$-diversity
+The main potential of this technique is that if a value of the sensitive attribute $S$ is
+removed from an equivalence class which verifies $(c, l)$-diversity, then $(c, l-1)$-diversity is preserved. For the implementation of this technique, has been used as reference (in order to get the formal definition of the concept). Specifically, suppose there are n different values for a sensitive attribute $S$ in an equivalence class $EC$. Be $r_i \left(i \in \{1, …, n\}\right)$ the number of times that the i-th most frequent value of $S$ appears in $EC$. Then, EC verifies recursive $(c, l)$-diversity for $S$ if $r_1 < c \left(r_1 + r_{l+1} + . . . + r_n\right)$.
 
-## Plot data directly from a [`Pandas dataframe`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html).
+### t-closeness
+The goal is again similar to that of the two previous techniques. A database with one sensitive
+attribute $S$ verifies t-closeness if all the equivalence classes verify it. An equivalence class verifies t-closeness if the distribution of the values of $S$ are at a distance no closer than t from the distribution of the sensitive attribute in the whole database. In order to measure the distance between the distributions, the Earth Mover’s distance (EMD) between the two distributions using the ordered distance is applied for numerical sensitive attributes. For categorical attributes, the equal distance is used.
 
-- We can also plot [Pandas dataframes](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html).
-- Before plotting, we convert the column headings from a `string` to `integer` data type, since they represent numerical values,
-  using [str.replace()](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.replace.html) to remove the `gpdPercap_`
-  prefix and then [astype(int)](https://pandas.pydata.org/docs/reference/api/pandas.Series.astype.html)
-  to convert the series of string values (`['1952', '1957', ..., '2007']`) to a series of integers: `[1925, 1957, ..., 2007]`.
+### Basic $\beta$-likeness and enhanced $\beta$-likeness
+In particular, be $P=\{p_1, …, p_n\}$ the distribution of a sensitive attribute $S$ in the whole database and $Q=\{q_1, …, q_n\}$ that of an equivalence class $EC$. Be $\max\left(D\left(P, Q\right)\right) = \max \{D\left(p_i , q_i\right): p_i \in P, q_i \in Q \wedge p_i < q_i\}$, then basic $\beta$-likeness is verified if $\max\left(D\left(P, Q\right)\right) \leq \beta$ and enhanced $\beta$-likeness is verified if $D\left(p_i , q_i\right) \leq \min\{\beta, − \log(p_i)\} \forall q_i \in Q$. In both cases $\beta > 0$. Note that enhanced $\beta$-likeness provides more robust privacy than basic $\beta$-likeness
 
-```python
-import pandas as pd
+### $\delta$-disclosure privacy
+Considering a database with only one sensitive attribute $S$, be $p\left(EC, s\right)$ the fraction of
+records with s as sensitive attribute in the equivalence class EC, $p\left(DB, s\right)$ that for the whole database (DB). Then, $\delta$-disclosure privacy is verified if:
 
-data = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col='country')
+$$\left| \log\left(\dfrac{p\left(EC, s\right)}{p\left(DB, s\right)}\right) \right| < \delta,$$
 
-# Extract year from last 4 characters of each column name
-# The current column names are structured as 'gdpPercap_(year)', 
-# so we want to keep the (year) part only for clarity when plotting GDP vs. years
-# To do this we use replace(), which removes from the string the characters stated in the argument
-# This method works on strings, so we use replace() from Pandas Series.str vectorized string functions
+for every $s \in D$ (with D the domain of S) and every equivalence class $EC$.
 
-years = data.columns.str.replace('gdpPercap_', '')
-
-# Convert year values to integers, saving results back to dataframe
-
-data.columns = years.astype(int)
-
-data.loc['Australia'].plot()
-```
-
-![](fig/9_gdp_australia.svg){alt='GDP plot for Australia'}
-
-## Select and transform data, then plot it.
-
-- By default, [`DataFrame.plot`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html#pandas.DataFrame.plot) plots with the rows as the X axis.
-- We can transpose the data in order to plot multiple series.
-
-```python
-data.T.plot()
-plt.ylabel('GDP per capita')
-```
-
-![](fig/9_gdp_australia_nz.svg){alt='GDP plot for Australia and New Zealand'}
-
-## Many styles of plot are available.
-
-- For example, do a bar plot using a fancier style.
-
-```python
-plt.style.use('ggplot')
-data.T.plot(kind='bar')
-plt.ylabel('GDP per capita')
-```
-
-![](fig/9_gdp_bar.svg){alt='GDP barplot for Australia'}
-
-## Data can also be plotted by calling the `matplotlib` `plot` function directly.
-
-- The command is `plt.plot(x, y)`
-- The color and format of markers can also be specified as an additional optional argument e.g., `b-` is a blue line, `g--` is a green dashed line.
-
-## Get Australia data from dataframe
-
-```python
-years = data.columns
-gdp_australia = data.loc['Australia']
-
-plt.plot(years, gdp_australia, 'g--')
-```
-
-![](fig/9_gdp_australia_formatted.svg){alt='GDP formatted plot for Australia'}
-
-## Can plot many sets of data together.
-
-```python
-# Select two countries' worth of data.
-gdp_australia = data.loc['Australia']
-gdp_nz = data.loc['New Zealand']
-
-# Plot with differently-colored markers.
-plt.plot(years, gdp_australia, 'b-', label='Australia')
-plt.plot(years, gdp_nz, 'g-', label='New Zealand')
-
-# Create legend.
-plt.legend(loc='upper left')
-plt.xlabel('Year')
-plt.ylabel('GDP per capita ($)')
-```
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Adding a Legend
-
-Often when plotting multiple datasets on the same figure it is desirable to have
-a legend describing the data.
-
-This can be done in `matplotlib` in two stages:
-
-- Provide a label for each dataset in the figure:
-
-```python
-plt.plot(years, gdp_australia, label='Australia')
-plt.plot(years, gdp_nz, label='New Zealand')
-```
-
-- Instruct `matplotlib` to create the legend.
-
-```python
-plt.legend()
-```
-
-By default matplotlib will attempt to place the legend in a suitable position. If you
-would rather specify a position this can be done with the `loc=` argument, e.g to place
-the legend in the upper left corner of the plot, specify `loc='upper left'`
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-![](fig/9_gdp_australia_nz_formatted.svg){alt='GDP formatted plot for Australia and New Zealand'}
-
-- Plot a scatter plot correlating the GDP of Australia and New Zealand
-- Use either `plt.scatter` or `DataFrame.plot.scatter`
-
-```python
-plt.scatter(gdp_australia, gdp_nz)
-```
-
-![](fig/9_gdp_correlation_plt.svg){alt='GDP correlation using plt.scatter'}
-
-```python
-data.T.plot.scatter(x = 'Australia', y = 'New Zealand')
-```
-
-![](fig/9_gdp_correlation_data.svg){alt='GDP correlation using data.T.plot.scatter'}
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Minima and Maxima
-
-Fill in the blanks below to plot the minimum GDP per capita over time
-for all the countries in Europe.
-Modify it again to plot the maximum GDP per capita over time for Europe.
-
-```python
-data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')
-data_europe.____.plot(label='min')
-data_europe.____
-plt.legend(loc='best')
-plt.xticks(rotation=90)
-```
-
-:::::::::::::::  solution
-
-## Solution
-
-```python
-data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')
-data_europe.min().plot(label='min')
-data_europe.max().plot(label='max')
-plt.legend(loc='best')
-plt.xticks(rotation=90)
-```
-
-![](fig/9_minima_maxima_solution.png){alt='Minima Maxima Solution'}
-
-
-
-:::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Correlations
-
-Modify the example in the notes to create a scatter plot showing
-the relationship between the minimum and maximum GDP per capita
-among the countries in Asia for each year in the data set.
-What relationship do you see (if any)?
-
-:::::::::::::::  solution
-
-## Solution
-
-```python
-data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')
-data_asia.describe().T.plot(kind='scatter', x='min', y='max')
-```
-
-![](fig/9_correlations_solution1.svg){alt='Correlations Solution 1'}
-
-No particular correlations can be seen between the minimum and maximum gdp values
-year on year. It seems the fortunes of asian countries do not rise and fall together.
-
-
-:::::::::::::::::::::::::
-
-You might note that the variability in the maximum is much higher than
-that of the minimum.  Take a look at the maximum and the max indexes:
-
-```python
-data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')
-data_asia.max().plot()
-print(data_asia.idxmax())
-print(data_asia.idxmin())
-```
-
-:::::::::::::::  solution
-
-## Solution
-
-![](fig/9_correlations_solution2.png){alt='Correlations Solution 2'}
-
-Seems the variability in this value is due to a sharp drop after 1972.
-Some geopolitics at play perhaps? Given the dominance of oil producing countries,
-maybe the Brent crude index would make an interesting comparison?
-Whilst Myanmar consistently has the lowest gdp, the highest gdb nation has varied
-more notably.
-
-
-
-:::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## More Correlations
-
-This short program creates a plot showing
-the correlation between GDP and life expectancy for 2007,
-normalizing marker size by population:
-
-```python
-data_all = pd.read_csv('data/gapminder_all.csv', index_col='country')
-data_all.plot(kind='scatter', x='gdpPercap_2007', y='lifeExp_2007',
-              s=data_all['pop_2007']/1e6)
-```
-
-Using online help and other resources,
-explain what each argument to `plot` does.
-
-:::::::::::::::  solution
-
-## Solution
-
-![](fig/9_more_correlations_solution.svg){alt='More Correlations Solution'}
-
-A good place to look is the documentation for the plot function -
-help(data\_all.plot).
-
-kind - As seen already this determines the kind of plot to be drawn.
-
-x and y - A column name or index that determines what data will be
-placed on the x and y axes of the plot
-
-s - Details for this can be found in the documentation of plt.scatter.
-A single number or one value for each data point. Determines the size
-of the plotted points.
-
-
-
-:::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Saving your plot to a file
-
-If you are satisfied with the plot you see you may want to save it to a file,
-perhaps to include it in a publication. There is a function in the
-matplotlib.pyplot module that accomplishes this:
-[savefig](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html).
-Calling this function, e.g. with
-
-```python
-plt.savefig('my_figure.png')
-```
-
-will save the current figure to the file `my_figure.png`. The file format
-will automatically be deduced from the file name extension (other formats
-are pdf, ps, eps and svg).
-
-Note that functions in `plt` refer to a global figure variable
-and after a figure has been displayed to the screen (e.g. with `plt.show`)
-matplotlib will make this  variable refer to a new empty figure.
-Therefore, make sure you call `plt.savefig` before the plot is displayed to
-the screen, otherwise you may find a file with an empty plot.
-
-When using dataframes, data is often generated and plotted to screen in one line.
-In addition to using `plt.savefig`, we can save a reference to the current figure
-in a local variable (with `plt.gcf`) and call the `savefig` class method from
-that variable to save the figure to file.
-
-```python
-data.plot(kind='bar')
-fig = plt.gcf() # get current figure
-fig.savefig('my_figure.png')
-```
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Making your plots accessible
-
-Whenever you are generating plots to go into a paper or a presentation, there are a few things you can do to make sure that everyone can understand your plots.
-
-- Always make sure your text is large enough to read. Use the `fontsize` parameter in `xlabel`, `ylabel`, `title`, and `legend`, and [`tick_params` with `labelsize`](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html) to increase the text size of the numbers on your axes.
-- Similarly, you should make your graph elements easy to see. Use `s` to increase the size of your scatterplot markers and `linewidth` to increase the sizes of your plot lines.
-- Using color (and nothing else) to distinguish between different plot elements will make your plots unreadable to anyone who is colorblind, or who happens to have a black-and-white office printer. For lines, the `linestyle` parameter lets you use different types of lines. For scatterplots, `marker` lets you change the shape of your points. If you're unsure about your colors, you can use [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) or [Color Oracle](https://colororacle.org/) to simulate what your plots would look like to those with colorblindness.
-  
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- [`matplotlib`](https://matplotlib.org/) is the most widely used scientific plotting library in Python.
-- Plot data directly from a Pandas dataframe.
-- Select and transform data, then plot it.
-- Many styles of plot are available: see the [Python Graph Gallery](https://python-graph-gallery.com/matplotlib/) for more options.
-- Can plot many sets of data together.
+- No one technique is able to combat all vectors of attack.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
+[^1]: Sáinz-Pardo Díaz, J., López García, Á. A Python library to check the level of anonymity of a dataset. Sci Data 9, 785 (2022). https://doi.org/10.1038/s41597-022-01894-2
