@@ -476,7 +476,7 @@
         
 <section id="aio-01-terminology"><p>Content from <a href="01-terminology.html">Terminology</a></p>
 <hr>
-<p>Last updated on 2024-03-18 |
+<p>Last updated on 2024-04-11 |
         
         <a href="https://github.com/michaelcoe/python-data-anonimization/edit/main/episodes/01-terminology.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
@@ -591,7 +591,7 @@ information. That is data that can be used to identify a person.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>The Surname and First Name</li>
@@ -632,7 +632,7 @@ of multiple columns.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul>
 <li>Age, Gender, Postcode</li>
@@ -671,11 +671,11 @@ context.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Sensitive attributes are dependent on the data holder. In this case,
-the Party Choice column is likely a sensitive attribute and should not
-be linked.</p>
+the Party Choice and Salaray columns are likely a sensitive attribute
+and should not be linked.</p>
 </div>
 </div>
 </div>
@@ -704,7 +704,7 @@ information.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>This is sort of a trick question. Insensitive information is a bit
 subjective and none of the information provided in the practice data set
@@ -746,7 +746,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-02-basic-anonymization-techniques"><p>Content from <a href="02-basic-anonymization-techniques.html">Basic Anonymization Techniques</a></p>
 <hr>
-<p>Last updated on 2024-03-18 |
+<p>Last updated on 2024-04-11 |
         
         <a href="https://github.com/michaelcoe/python-data-anonimization/edit/main/episodes/02-basic-anonymization-techniques.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
@@ -880,7 +880,7 @@ information?</p>
 </div>
 </div>
 </div>
-<p>We use the data masking technique, explored in the future <a href="03-masking.html">Data Masking</a> lesson. We get the following
+<p>We use the data masking technique, explored in the future <a href="04-masking.html">Data Masking</a> lesson. We get the following
 pseudonymous data, shown here with the original data set for
 clarity.</p>
 <div class="codewrapper">
@@ -1134,7 +1134,7 @@ above randomized data set?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Caitlin McPherson</p>
 </div>
@@ -1542,7 +1542,7 @@ aggregation on.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>Age, Salary</li>
@@ -1619,7 +1619,7 @@ groupings as well.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul>
 <li>This is really up to user choice, but in the following case we will
@@ -1784,7 +1784,7 @@ to?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li>Salary</li>
@@ -1868,7 +1868,7 @@ determine what the original data was?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ul>
 <li>Upon inspection, aggregation is much better at anonymising the
@@ -2883,7 +2883,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-09-attack-vectors"><p>Content from <a href="09-attack-vectors.html">Attack Vectors</a></p>
 <hr>
-<p>Last updated on 2024-04-08 |
+<p>Last updated on 2024-04-11 |
         
         <a href="https://github.com/michaelcoe/python-data-anonimization/edit/main/episodes/09-attack-vectors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
@@ -2920,10 +2920,50 @@ attack.</li>
 </div>
 </div>
 </div>
-<section id="attack-vectors"><h2 class="section-heading">Attack Vectors<a class="anchor" aria-label="anchor" href="#attack-vectors"></a>
+<section id="definitions"><h2 class="section-heading">Definitions<a class="anchor" aria-label="anchor" href="#definitions"></a>
 </h2>
 <hr class="half-width">
-<p>Diaz and Garcia <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> give a good overview of the common attacks
+<p>Before going over attack vectors, we must first learn and be reminded
+of some definitions pertaining to anonymized data sets. The following
+definitions are taken from Su <em>et al.</em> <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>:</p>
+<div class="section level3">
+<h3 id="identifiers">Identifiers<a class="anchor" aria-label="anchor" href="#identifiers"></a>
+</h3>
+<p>Attributes that can directly determine personal identities, such as
+name and identity card</p>
+</div>
+<div class="section level3">
+<h3 id="quasi-identifiers">Quasi-Identifiers<a class="anchor" aria-label="anchor" href="#quasi-identifiers"></a>
+</h3>
+<p>Attributes that can indirectly determine personal identity by
+associating multiple attributes, such as age and zip code. A
+quasi-identifier attribute value is a quasi-identifier data.</p>
+</div>
+<div class="section level3">
+<h3 id="sensitive-attributes">Sensitive Attributes<a class="anchor" aria-label="anchor" href="#sensitive-attributes"></a>
+</h3>
+<p>Attributes that are relevant to personal privacy information, such as
+disease names and medical costs. A sensitive attribute value is a
+sensitive data.</p>
+</div>
+<div class="section level3">
+<h3 id="multi-dimensional-data">Multi-dimensional Data<a class="anchor" aria-label="anchor" href="#multi-dimensional-data"></a>
+</h3>
+<p>Data that can be presented in a data table in which each record(row)
+corresponds to one person and each column to a specific attribute.</p>
+</div>
+<div class="section level3">
+<h3 id="equivalence-class">Equivalence Class<a class="anchor" aria-label="anchor" href="#equivalence-class"></a>
+</h3>
+<p>A set of anonymized records with the same values for all the
+quasi-identifier attributes, i.e., all the records in each equivalence
+class are indistinguishable in terms of their quasi-identifier
+attributes.</p>
+</div>
+</section><section id="attack-vectors"><h2 class="section-heading">Attack Vectors<a class="anchor" aria-label="anchor" href="#attack-vectors"></a>
+</h2>
+<hr class="half-width">
+<p>Diaz and Garcia <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> give a good overview of the common attacks
 on databases. The following table outlines the 7 types of attacks.</p>
 <table class="table">
 <colgroup>
@@ -2973,9 +3013,13 @@ class are semantically similar (although different).</td>
 information from the data.</td>
 </tr>
 </tbody>
-</table></section><section id="techniques"><h2 class="section-heading">Techniques<a class="anchor" aria-label="anchor" href="#techniques"></a>
+</table></section><section id="anonymization-technique-susceptibility"><h2 class="section-heading">Anonymization Technique Susceptibility<a class="anchor" aria-label="anchor" href="#anonymization-technique-susceptibility"></a>
 </h2>
 <hr class="half-width">
+<p>It’s important to understand which types of anonymization techniques
+are susceptible to which type of attack. Again, Diaz and Garcia <a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> provide a
+nice table that corresponds each technique to an appropriate attack
+vector.</p>
 <table style="width:100%;" class="table">
 <colgroup>
 <col width="28%">
@@ -3092,7 +3136,9 @@ information from the data.</td>
 </tr>
 </tbody>
 </table>
-<p>Here we will go into more detail about each technique.</p>
+<p>Here we will go into more detail about each technique. Each technique
+has their own section later in this training for more detail and
+implementation.</p>
 <div class="section level3">
 <h3 id="k-anonymity">k-anonymity<a class="anchor" aria-label="anchor" href="#k-anonymity"></a>
 </h3>
@@ -3184,6 +3230,136 @@ if:</p>
 s\right)}{p\left(DB, s\right)}\right) \right| &lt; \delta,\]</span></p>
 <p>for every <span class="math inline">\(s \in D\)</span> (with D the
 domain of S) and every equivalence class <span class="math inline">\(EC\)</span>.</p>
+</div>
+</section><section id="examples"><h2 class="section-heading">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
+</h2>
+<hr class="half-width">
+<p>Let’s look at a few examples to illustrate how an attack can be
+carried out.</p>
+<div class="section level3">
+<h3 id="linkage">Linkage<a class="anchor" aria-label="anchor" href="#linkage"></a>
+</h3>
+<p>Lets assume that you have a data set about certain medical
+conditions</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>
+    Gender     Age    Postcode      Diagnosis
+0   Female     39     6418          Meningitis</code></pre>
+</div>
+<p>You can’t really pick out who this might be just from this data, but
+suppose you also have access to public voter information with the
+following entry:</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>
+    Surname     First Name    Gender     Age     \
+0   Matheson    Alison        Female     39
+
+    Party Choice   Postcode
+0   NZ First       6418</code></pre>
+</div>
+<p>It is easy to see how the two data sets can be linked.</p>
+</div>
+<div class="section level3">
+<h3 id="skewness">Skewness<a class="anchor" aria-label="anchor" href="#skewness"></a>
+</h3>
+<p>Lets suppose we have a set of data that tests for a specific virus in
+the following form:</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>
+    Surname     First Name    Postcode   Age    Virus Present    
+0   Matheson    Alison        6418       39     Pos              
+1   McPherson   Caitlin       8213       19     Pos              
+2   Robb        Victoria      8869       31     Pos              
+3   Matthews    Debbie        9785       51     Neg
+4   Wallace     Susan         8686       67     Neg</code></pre>
+</div>
+<p>And we anonymize the data and group by the postcode column to the
+following table:</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>
+    Surname     First Name    Postcode    Age       Virus Present    
+0   *           *             6***        28-40     Pos              
+1   *           *             8***        18-27     Pos              
+2   *           *             8***        28-40     Pos              
+3   *           *             8***        &gt; 40      Neg
+4   *           *             9***        &gt; 40      Neg</code></pre>
+</div>
+<p>Now lets say that a person only knows that Victoria Robb lives in a
+Postcode that starts with an 8. Because the sensitive attribute of
+“Virus Present” is <strong><em>skewed</em></strong> towards Positive,
+there is a high likelihood that a person from that postcode is positive
+for the virus.</p>
+</div>
+<div class="section level3">
+<h3 id="similarity">Similarity<a class="anchor" aria-label="anchor" href="#similarity"></a>
+</h3>
+<p>In keeping with medical records, suppose we have a data set with the
+following data:</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>
+    Postcode    Age    Salary     Disease
+0   6418        39     40000      gastric ulcer
+1   8213        19     175000     gastritis
+2   8869        31     195000     stomach cancer
+3   9785        51     254000     bronchitis
+4   8686        67     225000     stomach ulcer</code></pre>
+</div>
+<p>Now suppose we anonymize the data as follows and keep with the
+sensitive attributes <strong>Salary</strong> and
+<strong>Disease</strong>.</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>
+    Postcode    Age     Salary     Disease
+0   6***        28-40   40000      flu
+1   8***        18-27   175000     gastritis
+2   8***        28-40   195000     stomach cancer
+3   8***        &gt; 40    225000     stomach ulcer
+4   9***        &gt; 40    254000     bronchitis</code></pre>
+</div>
+<p>In this example, the Postcode and Age are sufficiently anonymized.
+Suppose someone knows that Victoria Robb lives in a zip code that starts
+with 8. We can then know two pieces of sensitive information about
+Victoria because the Equivalence Classes are similar.</p>
+<div id="identifying-sensitive-information-by-similarity" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="identifying-sensitive-information-by-similarity" class="callout-inner">
+<h3 class="callout-title">Identifying Sensitive Information by
+Similarity<a class="anchor" aria-label="anchor" href="#identifying-sensitive-information-by-similarity"></a>
+</h3>
+<div class="callout-content">
+<p>Given the anonymized dataset above, what are the two sensitive
+attributes about Victoria Robb that can be identified through
+similarity.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>We know that Victoria earns a high salary and that she has problems
+with her stomach.</p>
+</div>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -3206,8 +3382,14 @@ any links that you are not going to use.
 </section><div class="footnotes footnotes-end-of-document">
 <hr>
 <ol>
-<li id="fn1"><p>Sáinz-Pardo Díaz, J., López García, Á. A Python library
-to check the level of anonymity of a dataset. Sci Data 9, 785 (2022). <a href="https://doi.org/10.1038/s41597-022-01894-2" class="external-link uri">https://doi.org/10.1038/s41597-022-01894-2</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>Su, B., Huang, J., Miao, K., Wang, Z., Zhang, X., &amp;
+Chen, Y. (2023). K-Anonymity Privacy Protection Algorithm for
+Multi-Dimensional Data against Skewness and Similarity Attacks. Sensors
+(Basel, Switzerland), 23(3), 1554. <a href="https://doi.org/10.3390/s23031554" class="external-link uri">https://doi.org/10.3390/s23031554</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Sáinz-Pardo Díaz, J., López García, Á. A Python library
+to check the level of anonymity of a dataset. Sci Data 9, 785 (2022). <a href="https://doi.org/10.1038/s41597-022-01894-2" class="external-link uri">https://doi.org/10.1038/s41597-022-01894-2</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Sáinz-Pardo Díaz, J., López García, Á. A Python library
+to check the level of anonymity of a dataset. Sci Data 9, 785 (2022). <a href="https://doi.org/10.1038/s41597-022-01894-2" class="external-link uri">https://doi.org/10.1038/s41597-022-01894-2</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div></section><section id="aio-10-lunch"><p>Content from <a href="10-lunch.html">Lunch</a></p>
 <hr>
@@ -3542,7 +3724,7 @@ second time: [3, 5]</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb22">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -3577,7 +3759,7 @@ integers, how long is the list <code>values[start:stop]</code>?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The list <code>values[start:stop]</code> has up to
 <code>stop - start</code> elements. For example,
@@ -3623,7 +3805,7 @@ list to string: gold</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>
@@ -3674,7 +3856,7 @@ negative indexing.)</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>The program prints <code>m</code>.</p>
 <ol style="list-style-type: decimal">
@@ -3722,7 +3904,7 @@ collection?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <p>The program prints</p>
 <div class="codewrapper sourceCode" id="cb27">
@@ -3768,7 +3950,7 @@ element, since indexing starts at <code>0</code>), goes on until the end
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6">Show me the solution</h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -3817,7 +3999,7 @@ difference between <code>sorted(letters)</code> and
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
   <h4 class="accordion-header" id="headingSolution7">Show me the solution</h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
 <div class="accordion-body">
 <p>Program A prints</p>
 <div class="codewrapper">
@@ -3876,7 +4058,7 @@ difference between <code>new = old</code> and
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution8" aria-expanded="false" aria-controls="collapseSolution8">
   <h4 class="accordion-header" id="headingSolution8">Show me the solution</h4>
 </button>
-<div id="collapseSolution8" class="accordion-collapse collapse" aria-labelledby="headingSolution8" data-bs-parent="#accordionSolution8">
+<div id="collapseSolution8" class="accordion-collapse collapse" data-bs-parent="#accordionSolution8" aria-labelledby="headingSolution8">
 <div class="accordion-body">
 <p>Program A prints</p>
 <div class="codewrapper">
@@ -4201,7 +4383,7 @@ produces 0..9, not 1..10.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>An IndentationError is a syntax error. Programs with syntax errors
 cannot be started. A program with a runtime error will start but an
@@ -4236,7 +4418,7 @@ is executed.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <table class="table">
 <thead><tr class="header">
@@ -4305,7 +4487,7 @@ reverse of the original character string “tin”).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb18">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4347,7 +4529,7 @@ indicated result.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4386,7 +4568,7 @@ indicated result.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb22">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4426,7 +4608,7 @@ indicated result.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6">Show me the solution</h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb24">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4462,7 +4644,7 @@ properly format the acronym.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
   <h4 class="accordion-header" id="headingSolution7">Show me the solution</h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4506,7 +4688,7 @@ print a list with the cumulative sum of data. The result should be
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution8" aria-expanded="false" aria-controls="collapseSolution8">
   <h4 class="accordion-header" id="headingSolution8">Show me the solution</h4>
 </button>
-<div id="collapseSolution8" class="accordion-collapse collapse" aria-labelledby="headingSolution8" data-bs-parent="#accordionSolution8">
+<div id="collapseSolution8" class="accordion-collapse collapse" data-bs-parent="#accordionSolution8" aria-labelledby="headingSolution8">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb27">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4560,7 +4742,7 @@ defined but was not?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution9" aria-expanded="false" aria-controls="collapseSolution9">
   <h4 class="accordion-header" id="headingSolution9">Show me the solution</h4>
 </button>
-<div id="collapseSolution9" class="accordion-collapse collapse" aria-labelledby="headingSolution9" data-bs-parent="#accordionSolution9">
+<div id="collapseSolution9" class="accordion-collapse collapse" data-bs-parent="#accordionSolution9" aria-labelledby="headingSolution9">
 <div class="accordion-body">
 <ul>
 <li>Python variable names are case sensitive: <code>number</code> and
@@ -4615,7 +4797,7 @@ it?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution10" aria-expanded="false" aria-controls="collapseSolution10">
   <h4 class="accordion-header" id="headingSolution10">Show me the solution</h4>
 </button>
-<div id="collapseSolution10" class="accordion-collapse collapse" aria-labelledby="headingSolution10" data-bs-parent="#accordionSolution10">
+<div id="collapseSolution10" class="accordion-collapse collapse" data-bs-parent="#accordionSolution10" aria-labelledby="headingSolution10">
 <div class="accordion-body">
 <p>This list has 4 elements and the index to access the last element in
 the list is <code>3</code>.</p>
@@ -5443,7 +5625,7 @@ of one of the data sets, which is a nice check on correctness.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>1 is not matched by the glob.</p>
 </div>
@@ -5482,7 +5664,7 @@ data frame.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -5523,7 +5705,7 @@ average GDP per capita for each region over time in a single chart.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>This solution builds a useful legend by using the <a href="https://docs.python.org/3/library/stdtypes.html#str.split" class="external-link">string
 <code>split</code> method</a> to extract the <code>region</code> from
@@ -5892,7 +6074,7 @@ result of call is: None</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb16">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -5931,7 +6113,7 @@ result of call is: None</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -6006,7 +6188,7 @@ result of call is: None</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><p>The problem with the example is that the function
@@ -6055,7 +6237,7 @@ returns the minimum value in that data.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -6098,7 +6280,7 @@ negative numbers?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb27">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -6162,7 +6344,7 @@ print?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6">Show me the solution</h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><code>2003/2/1</code></li>
@@ -6250,7 +6432,7 @@ error conditions. Sample output could be
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
   <h4 class="accordion-header" id="headingSolution7">Show me the solution</h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb34">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -6332,7 +6514,7 @@ the decade, instead of enumerating them in the code.)</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution8" aria-expanded="false" aria-controls="collapseSolution8">
   <h4 class="accordion-header" id="headingSolution8">Show me the solution</h4>
 </button>
-<div id="collapseSolution8" class="accordion-collapse collapse" aria-labelledby="headingSolution8" data-bs-parent="#accordionSolution8">
+<div id="collapseSolution8" class="accordion-collapse collapse" data-bs-parent="#accordionSolution8" aria-labelledby="headingSolution8">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The average GDP for Japan across the years reported for the 1980s is
@@ -6441,7 +6623,7 @@ values. Is the population trending toward a steady state?</p></li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution9" aria-expanded="false" aria-controls="collapseSolution9">
   <h4 class="accordion-header" id="headingSolution9">Show me the solution</h4>
 </button>
-<div id="collapseSolution9" class="accordion-collapse collapse" aria-labelledby="headingSolution9" data-bs-parent="#accordionSolution9">
+<div id="collapseSolution9" class="accordion-collapse collapse" data-bs-parent="#accordionSolution9" aria-labelledby="headingSolution9">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><div class="codewrapper sourceCode" id="cb43">
@@ -6734,7 +6916,7 @@ KeyError: 'Friday'</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Three levels.</li>
@@ -6993,7 +7175,7 @@ that <code>help</code> displays it properly.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -7052,7 +7234,7 @@ What did you do differently, and why?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Here’s one solution.</p>
 <div class="codewrapper sourceCode" id="cb9">
@@ -7299,8 +7481,8 @@ any links that you are not going to use.
   "url": "https://michaelcoe.github.io/python-data-anonimization/instructor/aio.html",
   "identifier": "https://michaelcoe.github.io/python-data-anonimization/instructor/aio.html",
   "dateCreated": "2024-02-14",
-  "dateModified": "2024-04-09",
-  "datePublished": "2024-04-09"
+  "dateModified": "2024-04-11",
+  "datePublished": "2024-04-11"
 }
 
   </script><script>
