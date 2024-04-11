@@ -121,7 +121,7 @@ In the data set above, which columns hold sensitive attributes.
 
 ## Solution
 
-Sensitive attributes are dependent on the data holder. In this case, the Party Choice column is likely a sensitive attribute and should not be linked.
+Sensitive attributes are dependent on the data holder. In this case, the Party Choice and Salaray columns are likely a sensitive attribute and should not be linked. 
 
 :::::::::::::::::::::::::
 

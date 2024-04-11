@@ -75,7 +75,7 @@ Matheson, Alison, thomas76\@yahoo.com.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
-We use the data masking technique, explored in the future [Data Masking](03-masking.md) lesson. We get the following pseudonymous data, shown here with the original data set for clarity.
+We use the data masking technique, explored in the future [Data Masking](04-masking.md) lesson. We get the following pseudonymous data, shown here with the original data set for clarity.
 
 ```output
 
